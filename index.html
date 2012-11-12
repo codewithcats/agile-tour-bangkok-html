@@ -3,6 +3,15 @@
     <title>Agile Tour Bangkok 2012 (Thailand)</title>
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=382279461854961";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="fb-like" data-href="http://at2012.agiletour.org/en/bangkok.html" data-send="false" data-width="450" data-show-faces="true"></div>
     <p>
       <img src="https://lh3.googleusercontent.com/-t5T7WNpj2iE/UKB_zKa6sVI/AAAAAAAAABo/VRAg_qqoUcE/s640/agileTourBangkokHeader.jpg" /></p>
     <p>
@@ -24,7 +33,8 @@
           <img src="https://lh4.googleusercontent.com/-RcJLPqC7W30/UKBonyPgQ5I/AAAAAAAAABE/GQ_wRyFeWzY/s128/amr-2.jpg" alt="" />
           <div class="speaker-info">
             <h3>Amr Elssamadisy (Keynote)</h3>
-            <p>Executive Agile Coach at Samadisy, Inc.</p>
+            <p class="description">Executive Agile Coach at Samadisy, Inc.</p>
+            <p class="session"><strong>Session:</strong>&nbsp;What it takes to succeed with Agile</p>
           </div>
           <div class="clear"></div>
         </li>
@@ -32,7 +42,8 @@
           <img src="https://lh3.googleusercontent.com/-HPSqjWSzYsI/UKBnfjVAFhI/AAAAAAAAAAk/zVhVrpRbTvQ/s128/mak.jpg" alt="" />
           <div class="speaker-info">
             <h3>Steven Mak</h3>
-            <p>Agile Coach at Odd-e</p>
+            <p class="description">Agile Coach at Odd-e</p>
+            <p class="session"><strong>Session:</strong>&nbsp;Scrum Fundamentals and Effective Adoption</p>
           </div>
           <div class="clear"></div>
         </li>
@@ -40,7 +51,8 @@
           <img src="https://lh4.googleusercontent.com/-F5upq4KwMgU/UKBnek2NXFI/AAAAAAAAAAc/UpAoPqD9NwA/s128/chen.jpg" alt="" />
           <div class="speaker-info">
             <h3>Micheal Chen</h3>
-            <p>Director at IConcepts Co., Ltd.</p>
+            <p class="description">Director at IConcepts Co., Ltd.</p>
+            <p class="session"><strong>Session:</strong>&nbsp;CMM with Agile</p>
           </div>
           <div class="clear"></div>
         </li>
@@ -48,7 +60,7 @@
           <img src="https://lh4.googleusercontent.com/-r6xbOTOn0Do/UKBoBSJuGRI/AAAAAAAAAAw/VTT6DhA4_ls/s128/scherrey.jpg" alt="" />
           <div class="speaker-info">
             <h3>Benjamin Scherrey</h3>
-            <p>Chief Systems Architect at Proteus Technologies Co. Ltd.</p>
+            <p class="description">Chief Systems Architect at Proteus Technologies Co. Ltd.</p>
           </div>
           <div class="clear"></div>
         </li>
@@ -56,8 +68,9 @@
           <img src="https://lh6.googleusercontent.com/-bWK-rdk2ui0/UKBsS52muBI/AAAAAAAAABU/_WmWyqixcso/s128/suradet.jpg" alt="" />
           <div class="speaker-info">
             <h3>Suradet Jitprapaikulsarn</h3>
-            <p>Lecturer at Department of Electrical and Computer Engineering,
+            <p class="description">Lecturer at Department of Electrical and Computer Engineering,
   Naresuan University</p>
+            <p class="session"><strong>Session:</strong>&nbsp;Essential Agile Skills for University Students</p>
           </div>
           <div class="clear"></div>
         </li>
@@ -65,38 +78,16 @@
           <img src="https://lh5.googleusercontent.com/-e6AZlRpoqrc/UKBqO5I9poI/AAAAAAAAABM/ge3mwcfTIYY/s128/arthit.jpg" alt="" />
           <div class="speaker-info">
             <h3>Arthit Hongchintakul</h3>
-            <p>Managing Director at Swiftlet</p>
+            <p class="description">Managing Director at Swiftlet</p>
+            <p class="session">
+              <strong>Session:</strong>&nbsp;Agile Cowboy
+            </p>
           </div>
           <div class="clear"></div>
         </li>
       </ul>
       <p>Plus local speakers from <strong>Agile Thailand 2012</strong> and more</p>
-    </div>
-    <div class="session-container">
-      <h2>Sessions</h3>
       <p>Most sessions will be conducted in Thai except a few sessions by speakers from oversea.</p>
-      <div>
-        <div class="session">
-         <h3>What it takes to succeed with Agile (Keynote)</h3>
-         <p>Amr Elssamadisy</p>
-        </div>
-        <div class="session">
-          <h3>Scrum Fundamentals and Effective Adoption</h3>
-          <p>Steven Mak</p>
-        </div>
-        <div class="session">
-          <h3>Agile Cowboy</h3>
-          <p>Arthit Hongchintakul</p>
-        </div>
-        <div class="session">
-          <h3>Essential Agile Skills for University Students</h3>
-          <p>Suradet Jitprapaikulsarn</p>
-        </div>
-        <div class="session">
-          <h3>CMM with Agile</h3>
-          <p>Micheal Chen</p>
-        </div>
-      </div>
     </div>
     <p>
       Info registration will be posted here soon</p>
@@ -107,6 +98,10 @@
     <style type="text/css">
       .speaker-container {
         padding: 12px;
+        margin: 0;
+      }
+      .speaker-container ul {
+        padding: 0;
         margin: 0;
       }
       .speaker-container ul li.speaker {
@@ -132,18 +127,7 @@
       .speaker-container ul li.speaker .speaker-info h3 {
         margin: 0;
       }
-      .speaker-container ul {
-        padding: 0;
-        margin: 0;
-      }
-      .session-container .session {
-        list-style: none;
-        list-style-type: none;
-        border-left: 3px solid #EEE;
-        padding-left: 12px;
-        margin-bottom: 12px;
-      }
-      .session-container .session h3, .session-container .session p {
+      .speaker-container ul li.speaker .speaker-info p {
         margin: 0;
       }
       .clear {
