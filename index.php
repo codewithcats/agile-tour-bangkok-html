@@ -1,5 +1,6 @@
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Agile Tour Bangkok 2012 (Thailand)</title>
   </head>
   <body>
@@ -292,6 +293,45 @@
         padding: 0;
         margin: 0;
       }
+      .attendees .attendee, .attendees .attendees-info {
+        padding: 6px 12px;
+      }
+      .attendees .attendee {
+        margin: 12px 0;
+      }
+      .attendees .attendees-info {
+        background-color: #EEE;
+        margin-bottom: 12px;
+      }
+      .attendees .payment-status {
+        float: left;
+      }
+      .attendees .payment-status {
+        font-weight: bold;
+        width: 180px;
+        border-left: 6px solid;
+        padding-left: 6px;
+      }
+      .attendees .payment-status.approved {
+        border-left-color: #6FD36F;
+        color: #6FD36F;
+      }
+      .attendees .payment-status.pending {
+        border-left-color: #666;
+        color: #666;
+      }
+      .attendees .attendee {
+        border-left: 6px solid;
+      }
+      .attendees .attendee.approved {
+        border-left-color: #6FD36F;
+      }
+      .attendees .attendee.pending {
+        border-left-color: #666;
+      }
+      .attendees .attendee .name {
+        font-weight: bold;
+      }
       .clear {
         clear: both;
       }
@@ -305,9 +345,53 @@
           itemSelector : '.speaker'
         });
       });
-      $.getJSON('https://www.eventbrite.com/json/event_search?organizer=Agile66', function(data) {
-        console.log(data);
-      });
     </script>
+    <?php
+      $url = "http://www.eventbrite.com/json/event_list_attendees?id=4816647723&user_key=135276911746277596537&app_key=GQVOZYT5FUTBM2AVPQ";
+      $chandle = curl_init();
+      curl_setopt($chandle, CURLOPT_URL, $url);
+      curl_setopt($chandle, CURLOPT_RETURNTRANSFER, 1);
+      $content = curl_exec($chandle);
+      curl_close($chandle);
+      $data = json_decode($content);
+      $attendees = $data->attendees;
+      $attendees_count = count($attendees);
+    ?>
+    <div class="attendees">
+      <h2>Attendees (<?php echo $attendees_count; ?>)</h2>
+      <div class="attendees-info">
+        <div id="payment-status-approved" class="payment-status approved">Confirmed Payment</div>
+        <div id="payment-status-pending" class="payment-status pending">Waiting for Payment</div>
+        <div class="clear"></div>
+      </div>
+    <?php
+      $paid_count = 0;
+      foreach ($attendees as $a) {
+        $attendee = $a->attendee;
+        $status = 'approved';
+        $paid = floatval($attendee->amount_paid);
+        if($paid < 1000.00) {
+          $status = 'pending';
+          $paid_count++; 
+        }
+        $name = $attendee->first_name .' '.$attendee->last_name;
+        $tag = '';
+        if($attendee->job_title) $tag .= ', '.$attendee->job_title;
+        if($attendee->job_title && $attendee->company)
+          $tag .= ' at';
+        if($attendee->company) $tag .= ' '.$attendee->company;
+    ?>
+    <div class="attendee <?php echo $status; ?>">
+      <span class="name"><?php echo $name; ?></span><?php echo $tag; ?>
+    </div>
+    <?php
+      }
+      $waiting_count = $attendees_count - $paid_count;
+    ?>
+  </div>
+  <script type="text/javascript">
+      $('#payment-status-approved').html('Confirmed Payment (<?php echo $paid_count; ?>)');
+      $('#payment-status-pending').html('Waiting for Payment (<?php echo $waiting_count; ?>)');
+  </script>
   </body>
 </html>
