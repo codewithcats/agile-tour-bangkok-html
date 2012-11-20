@@ -371,6 +371,13 @@
       .attendees .attendee .name {
         font-weight: bold;
       }
+      .attendees .attendee .answers {
+        margin: 0;
+        color: #666;
+      }
+      .attendees .attendee .answers .answer {
+        color: #000;
+      }
       .clear {
         clear: both;
       }
@@ -436,9 +443,20 @@
         if($attendee->job_title && $attendee->company)
           $tag .= ' at';
         if($attendee->company) $tag .= ' '.$attendee->company;
+        $agileExp = $attendee->answers[0]->answer->answer_text;
+        $hearFrom = $attendee->answers[1]->answer->answer_text;
+        $expectation = FALSE;
+        if($attendee->answers[2]->answer->question_id === 3026149)
+          $expectation = $attendee->answers[2]->answer->answer_text;
     ?>
     <div class="attendee <?php echo $status; ?>">
       <span class="name"><?php echo $name; ?></span><?php echo $tag; ?>
+      <p class="answers">
+        Agile Exp: <span class="answer"><?php echo $agileExp; ?></span>, How did you hear?: <span class="answer"><?php echo $hearFrom; ?></span>
+        <?php if($expectation): ?>
+        , Expectation: <span class="answer"><?php echo $expectation; ?></span>
+        <?php endif; ?>
+      </p>
     </div>
     <?php
       }
