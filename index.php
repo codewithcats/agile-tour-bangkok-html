@@ -4,6 +4,7 @@
     <title>Agile Tour Bangkok 2012 (Thailand)</title>
   </head>
   <body>
+    <div class="root">
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -23,22 +24,40 @@
     </div>
     <p>
       <img src="https://lh5.googleusercontent.com/-s3Mf6qlV-Cg/UKHq6pAV4UI/AAAAAAAAACk/a8t0Q2XWgJo/s640/agileTourBangkokBanner.jpg" /></p>
-    <div class="content">
-      <p>
+    <div class="container">
+      <div class="lang-bar">
+        <a href="#" class="swith-link" data-lang="th"><img src="http://at2012.agiletour.org/files/Thailand.png" alt="TH"></a>&nbsp;<a href="#" class="swith-link" data-lang="en"><img src="http://at2012.agiletour.org/files/United-Kingdom.png" alt="EN"></a>
+      </div>
+      <p class="content th">
         อไจล์ทัวร์เป็นงานสัมมนาแบบไม่หวังผลกำไรของผู้ที่สนใจในการพัฒนาซอฟต์แวร์ด้วยแนวคิดอไจล์ โดยจะจัดพร้อมๆกันในหลายประเทศในช่วงเดือน ต.ค.-ธ.ค. ของทุกปี ในปี 2012 นี้การจัดงานอไจล์ทัวร์จะมีขึ้นใน 84 เมืองของ 29 ประเทศทั่วโลก รวมทั้งที่ กรุงเทพฯ
       </p>
-      <p>
+      <p class="content th">
         การพัฒนาซอฟต์แวร์แบบตามลำดับขึ้นหรือที่เราคุ้นเคยกันว่า waterfall นั้น เป็นที่ประจักษ์แล้วในปัจจุบันว่ามีแต่จะนำพาให้โครงการล่าช้า ลูกค้าไม่ได้ของที่ต้องการ และคนทำงานก็มีแต่ความทุกข์ จุดประสงค์หลักของงานก็คือการแผยแพร่ความรู้เรื่องแนวคิดอไจล์ ซึ่งเป็นแนวทางการทำงานที่ทำให้เกิดซอฟต์แวร์ที่ มีคุณภาพ ตรงใจลูกค้า และ มีความสุขในการทำงาน ให้เป็นที่รู้จักมากขึ้นในวงการพัฒนาซอฟต์แวร์ของบ้านเรา
       </p>
+      <p class="content en">
+        Agile66, a community of Agile enthusiasts in Thailand is organizing Agile Tour Bangkok 2012 conference as part of global Agile Tour non-profit conference hosted in 84 cities of 29 countries around the world during October to December this year.
+      </p>
+      <p class="content en">
+        The main objective is to promote Agile, the proven software development practices to turnaround software development project from notorious death march to successful deliverables and joyful project, to Thai community. &nbsp;Speakers at the conference are mainly from the local community plus additional Agile experts from oversea.
+      </p>
       <h2>Theme</h2>
-      <p>
+      <p class="content th">
         ธีมของงานนำมาจากส่วนหนึ่งของ<a href="http://agilemanifesto.org/iso/th/" target="_blank">คำแถลงอุดมการณ์แห่งอไจล์</a>
       </p>
-      <p class="theme">
+      <p class="content theme th">
         ค้นพบวิธีที่ดีกว่าในการพัฒนาซอฟท์แวร์
       </p>
-      <p>
+      <p class="content th">
         หรืออีกนัยหนึ่งก็คือการเผยแพร่ความรู้เกี่ยวกับอไจล์ให้กว้างขวางขึ้นนั่นเอง
+      </p>
+      <p class="content en">
+        The Theme of the conference is
+      </p>
+      <p class="content theme en">
+        Uncovering A Better Way To Develop Software
+      </p>
+      <p class="content en">
+        a phrase from the Agile Manifesto which, in other word, means the theme is about promoting agile to wider audience.
       </p>
     </div>
     <h2>Speakers</h2>
@@ -206,29 +225,49 @@
       </div>
     </div>
     <div class="clear"></div>
-    <p>การบรรยายส่วนใหญ่เป็นภาษาไทย มีบางส่วนเป็นภาษาอังกฤษโดยจะระบุไว้ในรายละเอียดของหัวข้อ</p>
+    <p class="content th">การบรรยายส่วนใหญ่เป็นภาษาไทย มีบางส่วนเป็นภาษาอังกฤษโดยจะระบุไว้ในรายละเอียดของหัวข้อ</p>
+    <p class="content en">Most sessions will be conducted in Thai except a few sessions by speakers from oversea.</p>
     <h2>Registration</h2>
-    <div class="reg-options">
+    <div class="reg-options content th">
       <div class="reg-option">บัตรราคาปกติ 2,000 บาท</div>
       <div class="reg-option active"><strong>Early Bird</strong> ราคา <strong>1,000</strong> บาท (สามารถจองบัตรได้แล้ววันนี้ทาง <a href="http://agiletourbkk2012.eventbrite.com/"><img src="http://ebmedia.eventbrite.com/s3-build/11159-rc11-05-cff5361/django/images/logos/eb_logo_tiny_tm-trans.png" alt="Eventbrite" /></a>)</div>
     </div>
+    <div class="reg-options content en">
+      <div class="reg-option">Regular Ticket 2,000 THB</div>
+      <div class="reg-option active"><strong>Early Bird</strong> Ticket <strong>1,000</strong> THB (available for a limited time via <a href="http://agiletourbkk2012.eventbrite.com/"><img src="http://ebmedia.eventbrite.com/s3-build/11159-rc11-05-cff5361/django/images/logos/eb_logo_tiny_tm-trans.png" alt="Eventbrite" /></a>)</div>
+    </div>
     <h2>Payment</h2>
-    <div class="payment-desc">
+    <div class="payment-desc content th">
       <p>
         กรุณาโอนเงินไปที่บัญชี<strong>ธนาคารไทยพาญิชย์</strong> หมายเลขบัญชี <strong>250-211504-4 (นางสาวณัฏฐณิชา ฤทธิ์ธรรมนาถ)</strong></p>
       <p>แล้วส่ง email แนบรูปถ่ายสลิปการโอนเงินของท่านไปยัง <strong>tour@agile66.com</strong> ภายใน <strong>3 วัน</strong>เพื่อรักษาสิทธิ์ของตัวท่านเอง
       </p>
     </div>
-    <p>
+    <div class="payment-desc content en">
+      <p>
+        Please transfer your payment to <strong>SCB</strong> Account <strong>250-211504-4 (Nattanicha Rittammanart)</strong></p>
+      <p>and email a photo of paper transfer slip or electronic slip to <strong>tour@agile66.com</strong> within <strong>3 days</strong> to secure your ticket
+      </p>
+    </div>
+    <p class="content th">
       ถ้าต้องการเป็นผู้สนับสนุนการจัดงานครั้งนี้ กรุณาอ่านรายละเอียด<a href="http://goo.gl/ql22f">ที่นี่</a></p>
-    <p>
+    <p class="content th">
       ดูแลงานโดยกลุ่ม <a href="http://www.agile66.com">Agile66 </a> สามารถติดต่อเพื่อขอข้อมูลเพิ่มเติมได้ที่ <a href="mailto:tour@agile66.com">tour@agile66.com</a></p>
+    <p class="content en">
+      Want to sponsor the conference? Read <a href="http://goo.gl/ql22f">here</a>.</p>
+    <p class="content en">
+      Organized by The <a href="http://www.agile66.com">Agile66 </a>Community. Contact <a href="mailto:tour@agile66.com">tour@agile66.com</a> for more information</p>
     <style type="text/css">
       .social-buttons .twitter {
         float: left;
         width: 150px;
       }
-      .content p {
+      .lang-bar {
+        padding: 6px;
+        background-color: #EEE;
+        width: 52px;
+      }
+      .container p {
         font-size: 1.2em;
       }
       .theme {
@@ -345,6 +384,23 @@
           itemSelector : '.speaker'
         });
       });
+      var lang = getURLParameter('lang');
+      if(lang !== 'th') lang = 'en';
+      var langCls = '.'+lang;
+      switchLang(langCls);
+      $('.swith-link').click(function(e) {
+        e.preventDefault();
+        var langCls = '.' + $(this).attr('data-lang');
+        switchLang(langCls);
+      });
+      function switchLang(langCls) {
+        var content = $('.root .content');
+        content.not(langCls).hide(0);
+        content.filter(langCls).show(0);
+      }
+      function getURLParameter(name) {
+        return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);
+      }
     </script>
     <?php
       $url = "http://www.eventbrite.com/json/event_list_attendees?id=4816647723&user_key=135276911746277596537&app_key=GQVOZYT5FUTBM2AVPQ";
@@ -368,10 +424,10 @@
       $paid_count = 0;
       foreach ($attendees as $a) {
         $attendee = $a->attendee;
-        $status = 'approved';
+        $status = 'pending';
         $paid = floatval($attendee->amount_paid);
-        if($paid < 1000.00) {
-          $status = 'pending';
+        if($paid >= 1000.00) {
+          $status = 'approved';
           $paid_count++; 
         }
         $name = $attendee->first_name .' '.$attendee->last_name;
@@ -393,5 +449,6 @@
       $('#payment-status-approved').html('Confirmed Payment (<?php echo $paid_count; ?>)');
       $('#payment-status-pending').html('Waiting for Payment (<?php echo $waiting_count; ?>)');
   </script>
+  </div>
   </body>
 </html>
