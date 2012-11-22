@@ -133,7 +133,7 @@
           </div>
         </div>
         <div class="speaker">
-          <img src="https://lh3.googleusercontent.com/-MepviOmszl0/UKLr8cNvP5I/AAAAAAAAADI/t2hg1Hb87fI/s89/korn.jpg" alt="" />
+          <img src="https://lh3.googleusercontent.com/-_o2Lcr74Ew0/UKsoknMR4aI/AAAAAAAAAF4/VCti3m8axN0/s89/korn.jpg" alt="" />
           <div class="speaker-info">
             <h3>Kamon Treetampinij</h3>
             <p class="description">Speaker from Agile66</p>
@@ -183,7 +183,7 @@
           </div>
         </div>
         <div class="speaker">
-          <img src="https://lh3.googleusercontent.com/-Nseq3yjmQHI/UKLr9kN-xUI/AAAAAAAAADc/1Y4Zm5r6vW4/s89/non.jpg" alt="" />
+          <img src="https://lh4.googleusercontent.com/-I48OxZ_Cx9I/UKsscmf2UdI/AAAAAAAAAGI/HwokwnbNS1c/s89/non.jpg" alt="" />
           <div class="speaker-info">
             <h3>Varokas Panusuwan</h3>
             <p class="description">Software Engineer III at Cobalt Group</p>
@@ -248,6 +248,23 @@
         Please transfer your payment to <strong>SCB</strong> Account <strong>250-211504-4 (Nattanicha Rittammanart)</strong></p>
       <p>and email a photo of paper transfer slip or electronic slip to <strong>tour@agile66.com</strong> within <strong>3 days</strong> to secure your ticket
       </p>
+    </div>
+    <h2>Sponsors</h2>
+    <div class="sponsors gold-sponsors">
+      <div class="sponsor">
+        <img src="https://lh3.googleusercontent.com/-6qmjqeb4oqs/UK1vrSFUkBI/AAAAAAAAAGw/gd3nL9TId3o/s230/Gold-BridgeAsia-128px.jpg" alt=""></div>
+      <div class="sponsor" style="padding-top:18px;">
+        <img src="https://lh4.googleusercontent.com/-VhWwT1KkCtk/UK1vrTMN2mI/AAAAAAAAAG0/zhj4hxuccR8/s396/Gold-ThomsonReuters-77px.jpg" alt=""></div>
+      <div class="clear"></div>
+    </div>
+    <div class="sponsors bronze-sponsors">
+      <div class="sponsor">
+        <strong>@sinapam</strong>
+      </div>
+      <div class="sponsor">
+        <strong>EmetWorks</strong>
+      </div>
+      <div class="clear"></div>
     </div>
     <p class="content th">
       ถ้าต้องการเป็นผู้สนับสนุนการจัดงานครั้งนี้ กรุณาอ่านรายละเอียด<a href="http://goo.gl/ql22f">ที่นี่</a></p>
@@ -331,6 +348,16 @@
       .payment-desc p {
         padding: 0;
         margin: 0;
+      }
+      .sponsors {
+        margin-bottom: 12px;
+      }
+      .sponsors .sponsor {
+        float: left;
+        margin: 6px 12px;
+      }
+      .bronze-sponsors .sponsor {
+        font-size: 1.5em;
       }
       .attendees .attendee, .attendees .attendees-info {
         padding: 6px 12px;
