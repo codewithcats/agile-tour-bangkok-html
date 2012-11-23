@@ -2,6 +2,26 @@
   <head>
     <meta charset="UTF-8">
     <title>Agile Tour Bangkok 2012 (Thailand)</title>
+    <style type="text/css">
+        #agile_thailand_banner{
+            float:left; margin-top:15px;
+        }
+        #toc{
+            float:right;
+        }
+        #toc ul{
+            text-align: right;
+        }
+        #toc li{
+            width: 140px; background-image:none;
+        }
+        #toc li a{
+            color: gray;
+        }
+        #toc li a:hover{
+            color:#F50;
+        }
+    </style>
   </head>
   <body>
     <div class="root">
@@ -13,8 +33,20 @@
       js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=382279461854961";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-    <p>
-      <img src="https://lh4.googleusercontent.com/-gWYDQpW4_bI/UKHq6T013kI/AAAAAAAAACg/rBce1PVE1x0/s640/agileTourBangkokHeader.jpg" /></p>
+    <div>
+      <img id="agile_thailand_banner" src="https://lh4.googleusercontent.com/-gWYDQpW4_bI/UKHq6T013kI/AAAAAAAAACg/rBce1PVE1x0/s640/agileTourBangkokHeader.jpg" />
+        <div id="toc" >
+          <ul>
+              <li><a href="#theme" >Theme</a></li>
+              <li><a href="#speakers" >Speakers</a></li>
+              <li><a href="#registration" >Registration</a> | <a href="#payment" >Payment</a></li>
+
+              <li><a href="#sponsors" >Sponsors</a></li>
+              <li><a href="#faq" style="display:none;" >FAQ</a></li>
+              <li><a href="#attendees" >Attendees</a></li>
+          </ul>
+        </div>
+      </div>
     <div class="social-buttons">
       <div class="twitter">
         <a href="https://twitter.com/agiletourbkk" class="twitter-follow-button" data-show-count="false">Follow @agiletourbkk</a>
@@ -40,7 +72,7 @@
       <p class="content en">
         The main objective is to promote Agile, the proven software development practices to turnaround software development project from notorious death march to successful deliverables and joyful project, to Thai community. &nbsp;Speakers at the conference are mainly from the local community plus additional Agile experts from oversea.
       </p>
-      <h2>Theme</h2>
+      <h2  id="theme">Theme</h2>
       <p class="content th">
         ธีมของงานนำมาจากส่วนหนึ่งของ<a href="http://agilemanifesto.org/iso/th/" target="_blank">คำแถลงอุดมการณ์แห่งอไจล์</a>
       </p>
@@ -60,7 +92,7 @@
         a phrase from the Agile Manifesto which, in other word, means the theme is about promoting agile to wider audience.
       </p>
     </div>
-    <h2>Speakers</h2>
+    <h2 id="speakers">Speakers</h2>
     <div class="speaker-container">
       <div>
         <div class="speaker">
@@ -227,7 +259,7 @@
     <div class="clear"></div>
     <p class="content th">การบรรยายส่วนใหญ่เป็นภาษาไทย มีบางส่วนเป็นภาษาอังกฤษโดยจะระบุไว้ในรายละเอียดของหัวข้อ</p>
     <p class="content en">Most sessions will be conducted in Thai except a few sessions by speakers from oversea.</p>
-    <h2>Registration</h2>
+    <h2 id="registration">Registration</h2>
     <div class="reg-options content th">
       <div class="reg-option">บัตรราคาปกติ 2,000 บาท</div>
       <div class="reg-option active"><strong>Early Bird</strong> ราคา <strong>1,000</strong> บาท (สามารถจองบัตรได้แล้ววันนี้ทาง <a href="http://agiletourbkk2012.eventbrite.com/"><img src="http://ebmedia.eventbrite.com/s3-build/11159-rc11-05-cff5361/django/images/logos/eb_logo_tiny_tm-trans.png" alt="Eventbrite" /></a>)</div>
@@ -236,7 +268,7 @@
       <div class="reg-option">Regular Ticket 2,000 THB</div>
       <div class="reg-option active"><strong>Early Bird</strong> Ticket <strong>1,000</strong> THB (available for a limited time via <a href="http://agiletourbkk2012.eventbrite.com/"><img src="http://ebmedia.eventbrite.com/s3-build/11159-rc11-05-cff5361/django/images/logos/eb_logo_tiny_tm-trans.png" alt="Eventbrite" /></a>)</div>
     </div>
-    <h2>Payment</h2>
+    <h2 id="payment">Payment</h2>
     <div class="payment-desc content th">
       <p>
         กรุณาโอนเงินไปที่บัญชี<strong>ธนาคารไทยพาญิชย์</strong> หมายเลขบัญชี <strong>250-211504-4 (นางสาวณัฏฐณิชา ฤทธิ์ธรรมนาถ)</strong></p>
@@ -249,7 +281,7 @@
       <p>and email a photo of paper transfer slip or electronic slip to <strong>tour@agile66.com</strong> within <strong>3 days</strong> to secure your ticket
       </p>
     </div>
-    <h2>Sponsors</h2>
+    <h2 id="sponsors">Sponsors</h2>
     <div class="sponsors gold-sponsors">
       <div class="sponsor">
         <img src="https://lh4.googleusercontent.com/-JxwDovi3DZQ/UK3I5bLZEeI/AAAAAAAAAH4/rEpMPlS9g-0/s123/Gold-LaunchPad-120px.jpg" alt="LaunchPad">
@@ -282,6 +314,18 @@
       Want to sponsor the conference? Read <a href="http://goo.gl/ql22f">here</a>.</p>
     <p class="content en">
       Organized by The <a href="http://www.agile66.com">Agile66 </a>Community. Contact <a href="mailto:tour@agile66.com">tour@agile66.com</a> for more information</p>
+      <br/>
+      <div class="faq" style="display:none;">
+        <h2 id="faq">FAQ</h2>
+        <div class="faq_content">
+
+        </div>
+      </div>
+
+
+
+
+
     <style type="text/css">
       .social-buttons .twitter {
         float: left;
@@ -455,8 +499,8 @@
       $attendees = $data->attendees;
       $attendees_count = count($attendees);
     ?>
-    <div class="attendees">
-      <h2>Attendees (<?php echo $attendees_count; ?>)</h2>
+    <div class="attendees"  id="attendees">
+      <h2 id="attendees">Attendees (<?php echo $attendees_count; ?>)</h2>
       <div class="attendees-info">
         <div id="payment-status-approved" class="payment-status approved">Confirmed Payment</div>
         <div id="payment-status-pending" class="payment-status pending">Waiting for Payment</div>
