@@ -21,6 +21,18 @@
         #toc li a:hover{
             color:#F50;
         }
+        .social-buttons{
+            margin-top:7px; text-align:right; margin-bottom: 5px;
+        }
+        .twitter .btn .label{
+            color: gray;
+        }
+        .social-buttons .twitter {
+            float:right; margin-right:10px;
+        }
+        .fb-like{
+            float:right;
+        }
     </style>
   </head>
   <body>
@@ -47,13 +59,18 @@
           </ul>
         </div>
       </div>
-    <div class="social-buttons">
+      <div style="clear:both;"></div>
+    <div class="social-buttons" >
+      <div class="fb-like" data-href="https://www.facebook.com/agiletourbkk" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false"></div>
+
       <div class="twitter">
         <a href="https://twitter.com/agiletourbkk" class="twitter-follow-button" data-show-count="false">Follow @agiletourbkk</a>
       </div>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      <div class="fb-like" data-href="https://www.facebook.com/agiletourbkk" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false"></div>
-    </div>
+
+
+      <div style="clear:both;"></div>
+    </div><!--class="social-buttons"-->
     <p>
       <img src="https://lh5.googleusercontent.com/-s3Mf6qlV-Cg/UKHq6pAV4UI/AAAAAAAAACk/a8t0Q2XWgJo/s640/agileTourBangkokBanner.jpg" /></p>
     <div class="container">
