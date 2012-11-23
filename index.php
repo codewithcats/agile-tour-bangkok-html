@@ -16,7 +16,7 @@
             text-align: right;
         }
         #toc li{
-            width: 140px; background-image:none;
+            width: 140px; background-image:none; list-style: none;
         }
         #toc li a{
             color: gray;
