@@ -28,7 +28,7 @@
             color: gray;
         }
         .social-buttons .twitter {
-            float:right; margin-right:10px;
+            float:right ; margin-right:10px;
         }
         .fb-like{
             float:right;
@@ -337,7 +337,6 @@
 
     <style type="text/css">
       .social-buttons .twitter {
-        float: left;
         width: 150px;
       }
       .lang-bar {
