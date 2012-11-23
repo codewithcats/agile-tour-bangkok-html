@@ -252,17 +252,25 @@
     <h2>Sponsors</h2>
     <div class="sponsors gold-sponsors">
       <div class="sponsor">
-        <img src="https://lh3.googleusercontent.com/-6qmjqeb4oqs/UK1vrSFUkBI/AAAAAAAAAGw/gd3nL9TId3o/s230/Gold-BridgeAsia-128px.jpg" alt=""></div>
-      <div class="sponsor" style="padding-top:18px;">
-        <img src="https://lh4.googleusercontent.com/-VhWwT1KkCtk/UK1vrTMN2mI/AAAAAAAAAG0/zhj4hxuccR8/s396/Gold-ThomsonReuters-77px.jpg" alt=""></div>
+        <img src="https://lh4.googleusercontent.com/-JxwDovi3DZQ/UK3I5bLZEeI/AAAAAAAAAH4/rEpMPlS9g-0/s123/Gold-LaunchPad-120px.jpg" alt="LaunchPad">
+      </div>
+      <div class="sponsor" style="padding-top: 18px;">
+        <img src="https://lh6.googleusercontent.com/-DZsEqOAUpgI/UK3IExZJUUI/AAAAAAAAAHw/2jiYfLy0yQY/s162/Gold-BridgeAsia-90px.jpg" alt="BridgeAsia"></div>
+      <div class="sponsor" style="padding-top:36px;">
+        <img src="https://lh4.googleusercontent.com/-tpJ-A6YUF5s/UK3IChToUxI/AAAAAAAAAHg/6IqU_GPbYOc/s271/Gold-ThomsonReuters-50px.jpg" alt="Thomson Reuters"></div>
+      <div class="sponsor" style="padding-top:24px;">
+        <img src="https://lh4.googleusercontent.com/--VJtFkjWBdQ/UK3ICkNU5jI/AAAAAAAAAHc/dTWfp0Wt_lY/s199/Gold-ProntoMarketing.png" alt="Pronto Marketing"></div>
       <div class="clear"></div>
     </div>
     <div class="sponsors bronze-sponsors">
-      <div class="sponsor">
+      <div class="sponsor" style="padding-top:18px;">
         <strong>@sinapam</strong>
       </div>
       <div class="sponsor">
-        <strong>EmetWorks</strong>
+        <img src="https://lh3.googleusercontent.com/-dfI5Q4-2eSc/UK2wonaX3OI/AAAAAAAAAHI/jKK1w6GtjzQ/s114/Bronze-EmetWork-60px.jpg" alt="EmetWorks">
+      </div>
+      <div class="sponsor">
+        <img src="https://lh6.googleusercontent.com/-455u8QKnMls/UK3Teu0-zSI/AAAAAAAAAIM/tpftELljig4/s128/Bronze-Sprint3r-60px.jpg" alt="Sprint3r">
       </div>
       <div class="clear"></div>
     </div>
@@ -357,7 +365,7 @@
         margin: 6px 12px;
       }
       .bronze-sponsors .sponsor {
-        font-size: 1.5em;
+        font-size: 1.7em;
       }
       .attendees .attendee, .attendees .attendees-info {
         padding: 6px 12px;
