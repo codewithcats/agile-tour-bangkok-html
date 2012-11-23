@@ -42,7 +42,7 @@
               <li><a href="#registration" >Registration</a> | <a href="#payment" >Payment</a></li>
 
               <li><a href="#sponsors" >Sponsors</a></li>
-              <li><a href="#faq" >FAQ</a></li>
+              <li><a href="#faq" style="display:none;" >FAQ</a></li>
               <li><a href="#attendees" >Attendees</a></li>
           </ul>
         </div>
@@ -306,6 +306,18 @@
       Want to sponsor the conference? Read <a href="http://goo.gl/ql22f">here</a>.</p>
     <p class="content en">
       Organized by The <a href="http://www.agile66.com">Agile66 </a>Community. Contact <a href="mailto:tour@agile66.com">tour@agile66.com</a> for more information</p>
+      <br/>
+      <div class="faq" style="display:none;">
+        <h2 id="faq">FAQ</h2>
+        <div class="faq_content">
+
+        </div>
+      </div>
+
+
+
+
+
     <style type="text/css">
       .social-buttons .twitter {
         float: left;
