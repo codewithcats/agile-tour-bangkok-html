@@ -121,7 +121,7 @@
     <h2 id="speakers">Speakers</h2>
     <div class="speaker-container">
       <div>
-        <div class="speaker">
+        <div class="speaker" data-ref="1">
           <img src="https://lh4.googleusercontent.com/-RcJLPqC7W30/UKBonyPgQ5I/AAAAAAAAABE/GQ_wRyFeWzY/s128/amr-2.jpg" alt="" />
           <div class="speaker-info">
             <h3>Amr Elssamadisy (Keynote)</h3>
@@ -531,6 +531,32 @@
       function getURLParameter(name) {
         return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);
       }
+    </script>
+    <script id="fullProfileTmpl" type="text/template">
+      <%= Session Description (in Session Lanugage) %>
+    </script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+    <script type="text/javascript" src="miso.ds.deps.min.0.4.0.js"></script>
+    <script type="text/javascript">
+      (function() {
+        //var fullProfileTmpl = _.template($('#fullProfileTmpl').html());
+        var sessionDataset = new Miso.Dataset({
+          importer: Miso.Dataset.Importers.GoogleSpreadsheet,
+          parser: Miso.Dataset.Parsers.GoogleSpreadsheet,
+          key: "0AscWlVyoI5IidFpkekNJV2xFZ0U3YXFYd0VJSFJyaVE",
+          worksheet : '1'
+        });
+        sessionDataset.fetch({
+          success: function() {
+            this.each(function(row) {
+              console.log(row['Speaker Title']);
+            });
+          },
+          error: function() {
+            console.log('Cannot fetch session data.')
+          }
+        });
+      }).call(this);
     </script>
     <?php
       $url = "http://www.eventbrite.com/json/event_list_attendees?id=4816647723&user_key=135276911746277596537&app_key=GQVOZYT5FUTBM2AVPQ";
