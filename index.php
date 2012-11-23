@@ -3,6 +3,9 @@
     <meta charset="UTF-8">
     <title>Agile Tour Bangkok 2012 (Thailand)</title>
     <style type="text/css">
+        h2{
+            padding-top:25px;
+        }
         #agile_thailand_banner{
             float:left; margin-top:15px;
         }
@@ -33,6 +36,12 @@
         .fb-like{
             float:right;
         }
+        dt{
+            font-weight: bold; font-size: 1.3em; color: gray; line-height: 2.4em;
+        }
+        dd{
+            margin-bottom: 15px; color: gray; line-height: 2.4em;
+        }
     </style>
   </head>
   <body>
@@ -54,7 +63,7 @@
               <li><a href="#registration" >Registration</a> | <a href="#payment" >Payment</a></li>
 
               <li><a href="#sponsors" >Sponsors</a></li>
-              <li><a href="#faq" style="display:none;" >FAQ</a></li>
+              <li><a href="#faq" >FAQ</a></li>
               <li><a href="#attendees" >Attendees</a></li>
           </ul>
         </div>
@@ -324,9 +333,33 @@
     <p class="content en">
       Organized by The <a href="http://www.agile66.com">Agile66 </a>Community. Contact <a href="mailto:tour@agile66.com">tour@agile66.com</a> for more information</p>
       <br/>
-      <div class="faq" style="display:none;">
+      <div class="faq" >
         <h2 id="faq">FAQ</h2>
         <div class="faq_content">
+
+            <dt>Q1: งานเริ่ม กี่โมง ถึงกี่โมง มี ตาราง schedule มั้ย?</dt>
+            <dd>A1: จะมีการแจ้งให้ทราบ ทางอีเมลล์อีกครั้งหนึ่งค่ะ</dd>
+
+            <dt>Q2: session Eng อย่างเดียว?</dt>
+            <dd>A2: มี session ที่เป็นภาษาไทยค่ะ</dd>
+
+            <dt>Q3: Dress code?</dt>
+            <dd>A3: Casual ค่ะ คือไม่ต้องเป็นทางการมากนักค่ะ</dd>
+
+            <dt>Q4: ค่าตั๋วรวมค่าอาหารด้วยหรือไม่ ?</dt>
+            <dd>A4: รวมอาหารให้เรียบร้อยแล้วค่ะ</dd>
+
+            <dt>Q5: walk in ได้ไหม?</dt>
+            <dd>A5: ไม่มีรับ Walk-in นะคะ เพราะว่าสถานที่จำกัด</dd>
+
+            <dt>Q6: ตกลงจะมีทีมงานสรุปเป็นไทยให้ใช่ป่าวครับ?</dt>
+            <dd>A6: ไม่มีค่ะ เชื่อว่าผู้เข้าร่วมงานหลายๆท่าน คงกลับไปเขียน Blog ที่จะเป็นประโยชน์ให้ได้อ่านกันค่ะ</dd>
+
+            <dt>Q7: วิธีเดินทางไปงาน?</dt>
+            <dd>A7: ดูจาก Facebook page ของ Launchpad นะคะ <a href=" http://www.facebook.com/launchpadhq/info" target="_blank"> http://www.facebook.com/launchpadhq/info</a></dd>
+
+            <dt>Q8: มีที่จอดรถไหม?</dt>
+            <dd>A8: แนะนำว่าไม่ควรนำรถมา เพราะที่จอดรถมีน้อยค่ะ ที่จอดรถในตึก 30 บาท / ชั่วโมง ไม่มี stamp ให้ค่ะ</dd>
 
         </div>
       </div>
