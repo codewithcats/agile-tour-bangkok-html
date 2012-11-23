@@ -310,17 +310,25 @@
     <h2 id="sponsors">Sponsors</h2>
     <div class="sponsors gold-sponsors">
       <div class="sponsor">
-        <img src="https://lh3.googleusercontent.com/-6qmjqeb4oqs/UK1vrSFUkBI/AAAAAAAAAGw/gd3nL9TId3o/s230/Gold-BridgeAsia-128px.jpg" alt=""></div>
-      <div class="sponsor" style="padding-top:18px;">
-        <img src="https://lh4.googleusercontent.com/-VhWwT1KkCtk/UK1vrTMN2mI/AAAAAAAAAG0/zhj4hxuccR8/s396/Gold-ThomsonReuters-77px.jpg" alt=""></div>
+        <img src="https://lh4.googleusercontent.com/-JxwDovi3DZQ/UK3I5bLZEeI/AAAAAAAAAH4/rEpMPlS9g-0/s123/Gold-LaunchPad-120px.jpg" alt="LaunchPad">
+      </div>
+      <div class="sponsor" style="padding-top: 18px;">
+        <img src="https://lh6.googleusercontent.com/-DZsEqOAUpgI/UK3IExZJUUI/AAAAAAAAAHw/2jiYfLy0yQY/s162/Gold-BridgeAsia-90px.jpg" alt="BridgeAsia"></div>
+      <div class="sponsor" style="padding-top:36px;">
+        <img src="https://lh4.googleusercontent.com/-tpJ-A6YUF5s/UK3IChToUxI/AAAAAAAAAHg/6IqU_GPbYOc/s271/Gold-ThomsonReuters-50px.jpg" alt="Thomson Reuters"></div>
+      <div class="sponsor" style="padding-top:24px;">
+        <img src="https://lh4.googleusercontent.com/--VJtFkjWBdQ/UK3ICkNU5jI/AAAAAAAAAHc/dTWfp0Wt_lY/s199/Gold-ProntoMarketing.png" alt="Pronto Marketing"></div>
       <div class="clear"></div>
     </div>
     <div class="sponsors bronze-sponsors">
-      <div class="sponsor">
+      <div class="sponsor" style="padding-top:18px;">
         <strong>@sinapam</strong>
       </div>
       <div class="sponsor">
-        <strong>EmetWorks</strong>
+        <img src="https://lh3.googleusercontent.com/-dfI5Q4-2eSc/UK2wonaX3OI/AAAAAAAAAHI/jKK1w6GtjzQ/s114/Bronze-EmetWork-60px.jpg" alt="EmetWorks">
+      </div>
+      <div class="sponsor">
+        <img src="https://lh6.googleusercontent.com/-455u8QKnMls/UK3Teu0-zSI/AAAAAAAAAIM/tpftELljig4/s128/Bronze-Sprint3r-60px.jpg" alt="Sprint3r">
       </div>
       <div class="clear"></div>
     </div>
@@ -332,41 +340,36 @@
       Want to sponsor the conference? Read <a href="http://goo.gl/ql22f">here</a>.</p>
     <p class="content en">
       Organized by The <a href="http://www.agile66.com">Agile66 </a>Community. Contact <a href="mailto:tour@agile66.com">tour@agile66.com</a> for more information</p>
-      <br/>
-      <div class="faq" >
-        <h2 id="faq">FAQ</h2>
-        <div class="faq_content">
+    <div class="faq" >
+      <h2 id="faq">FAQ</h2>
+      <div class="faq_content">
 
-            <dt>Q1: งานเริ่ม กี่โมง ถึงกี่โมง มี ตาราง schedule มั้ย?</dt>
-            <dd>A1: จะมีการแจ้งให้ทราบ ทางอีเมลล์อีกครั้งหนึ่งค่ะ</dd>
+          <dt>Q1: งานเริ่ม กี่โมง ถึงกี่โมง มี ตาราง schedule มั้ย?</dt>
+          <dd>A1: จะมีการแจ้งให้ทราบ ทางอีเมลล์อีกครั้งหนึ่งค่ะ</dd>
 
-            <dt>Q2: session Eng อย่างเดียว?</dt>
-            <dd>A2: มี session ที่เป็นภาษาไทยค่ะ</dd>
+          <dt>Q2: session Eng อย่างเดียว?</dt>
+          <dd>A2: มี session ที่เป็นภาษาไทยค่ะ</dd>
 
-            <dt>Q3: Dress code?</dt>
-            <dd>A3: Casual ค่ะ คือไม่ต้องเป็นทางการมากนักค่ะ</dd>
+          <dt>Q3: Dress code?</dt>
+          <dd>A3: Casual ค่ะ คือไม่ต้องเป็นทางการมากนักค่ะ</dd>
 
-            <dt>Q4: ค่าตั๋วรวมค่าอาหารด้วยหรือไม่ ?</dt>
-            <dd>A4: รวมอาหารให้เรียบร้อยแล้วค่ะ</dd>
+          <dt>Q4: ค่าตั๋วรวมค่าอาหารด้วยหรือไม่ ?</dt>
+          <dd>A4: รวมอาหารให้เรียบร้อยแล้วค่ะ</dd>
 
-            <dt>Q5: walk in ได้ไหม?</dt>
-            <dd>A5: ไม่มีรับ Walk-in นะคะ เพราะว่าสถานที่จำกัด</dd>
+          <dt>Q5: walk in ได้ไหม?</dt>
+          <dd>A5: ไม่มีรับ Walk-in นะคะ เพราะว่าสถานที่จำกัด</dd>
 
-            <dt>Q6: ตกลงจะมีทีมงานสรุปเป็นไทยให้ใช่ป่าวครับ?</dt>
-            <dd>A6: ไม่มีค่ะ เชื่อว่าผู้เข้าร่วมงานหลายๆท่าน คงกลับไปเขียน Blog ที่จะเป็นประโยชน์ให้ได้อ่านกันค่ะ</dd>
+          <dt>Q6: ตกลงจะมีทีมงานสรุปเป็นไทยให้ใช่ป่าวครับ?</dt>
+          <dd>A6: ไม่มีค่ะ เชื่อว่าผู้เข้าร่วมงานหลายๆท่าน คงกลับไปเขียน Blog ที่จะเป็นประโยชน์ให้ได้อ่านกันค่ะ</dd>
 
-            <dt>Q7: วิธีเดินทางไปงาน?</dt>
-            <dd>A7: ดูจาก Facebook page ของ Launchpad นะคะ <a href=" http://www.facebook.com/launchpadhq/info" target="_blank"> http://www.facebook.com/launchpadhq/info</a></dd>
+          <dt>Q7: วิธีเดินทางไปงาน?</dt>
+          <dd>A7: ดูจาก Facebook page ของ Launchpad นะคะ <a href=" http://www.facebook.com/launchpadhq/info" target="_blank"> http://www.facebook.com/launchpadhq/info</a></dd>
 
-            <dt>Q8: มีที่จอดรถไหม?</dt>
-            <dd>A8: แนะนำว่าไม่ควรนำรถมา เพราะที่จอดรถมีน้อยค่ะ ที่จอดรถในตึก 30 บาท / ชั่วโมง ไม่มี stamp ให้ค่ะ</dd>
+          <dt>Q8: มีที่จอดรถไหม?</dt>
+          <dd>A8: แนะนำว่าไม่ควรนำรถมา เพราะที่จอดรถมีน้อยค่ะ ที่จอดรถในตึก 30 บาท / ชั่วโมง ไม่มี stamp ให้ค่ะ</dd>
 
-        </div>
       </div>
-
-
-
-
+    </div>
 
     <style type="text/css">
       .social-buttons .twitter {
