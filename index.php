@@ -400,6 +400,7 @@
       }
       .speaker-container {
         margin: 0;
+        width: 934px;
       }
       .speaker-container .speaker {
         list-style: none;
