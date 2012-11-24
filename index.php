@@ -541,14 +541,9 @@
         return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);
       }
     </script>
-    <script id="fullProfileTmpl" type="text/template">
-      <%= Session Description (in Session Lanugage) %>
-    </script>
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
     <script type="text/javascript" src="miso.ds.deps.min.0.4.0.js"></script>
     <script type="text/javascript">
-      (function() {
-        //var fullProfileTmpl = _.template($('#fullProfileTmpl').html());
+      (function() {//var fullProfileTmpl = _.template($('#fullProfileTmpl').html());
         var sessionDataset = new Miso.Dataset({
           importer: Miso.Dataset.Importers.GoogleSpreadsheet,
           parser: Miso.Dataset.Parsers.GoogleSpreadsheet,
