@@ -320,6 +320,12 @@
         <img src="https://lh4.googleusercontent.com/--VJtFkjWBdQ/UK3ICkNU5jI/AAAAAAAAAHc/dTWfp0Wt_lY/s199/Gold-ProntoMarketing.png" alt="Pronto Marketing"></div>
       <div class="clear"></div>
     </div>
+    <div class="sponsors gold-sponsors">
+      <div class="sponsor">
+        <img src="https://lh5.googleusercontent.com/-a6IspAP7IHE/UK_q9uIHdkI/AAAAAAAAAIg/46NOQGGTZTY/s121/Gold-DST-121px.jpg.jpg">
+      </div>
+      <div class="clear"></div>
+    </div>
     <div class="sponsors bronze-sponsors">
       <div class="sponsor" style="padding-top:18px;">
         <strong>@sinapam</strong>
@@ -329,6 +335,9 @@
       </div>
       <div class="sponsor">
         <img src="https://lh6.googleusercontent.com/-455u8QKnMls/UK3Teu0-zSI/AAAAAAAAAIM/tpftELljig4/s128/Bronze-Sprint3r-60px.jpg" alt="Sprint3r">
+      </div>
+      <div class="sponsor" style="padding-top:18px;">
+        <strong>ScrumCat</strong>
       </div>
       <div class="clear"></div>
     </div>
