@@ -16,7 +16,7 @@
             text-align: right;
         }
         #toc li{
-            width: 140px; background-image:none;
+            width: 140px; background-image:none; list-style: none;
         }
         #toc li a{
             color: gray;
@@ -307,30 +307,54 @@
       <p>and email a photo of paper transfer slip or electronic slip to <strong>tour@agile66.com</strong> within <strong>3 days</strong> to secure your ticket
       </p>
     </div>
-    <h2 id="sponsors">Sponsors</h2>
-    <div class="sponsors gold-sponsors">
-      <div class="sponsor">
-        <img src="https://lh4.googleusercontent.com/-JxwDovi3DZQ/UK3I5bLZEeI/AAAAAAAAAH4/rEpMPlS9g-0/s123/Gold-LaunchPad-120px.jpg" alt="LaunchPad">
+    <div class="sponsors-container">
+      <h2 id="sponsors">Sponsors</h2>
+      <div class="sponsors platinum-sponsors">
+        <div class="sponsor" style="padding-top:140px;padding-left:60px;">
+          <img style="width:400px;" src="https://lh5.googleusercontent.com/-LgEAQ_d14OE/ULLbdd9tZuI/AAAAAAAAAJw/PxZwxDXUffk/s642/Platinum-TW-100px.jpg" alt="ToughtWorks">
+        </div>
+        <div class="sponsor">
+          <img src="https://lh4.googleusercontent.com/-guUj7IqpLYw/ULLbdbhcq5I/AAAAAAAAAJ0/eaxBo8cZQLY/s294/Platinum-ProteusFamily-220px.png" alt="Proteus Family">
+        </div>
+        <div class="clear"></div>
       </div>
-      <div class="sponsor" style="padding-top: 18px;">
-        <img src="https://lh6.googleusercontent.com/-DZsEqOAUpgI/UK3IExZJUUI/AAAAAAAAAHw/2jiYfLy0yQY/s162/Gold-BridgeAsia-90px.jpg" alt="BridgeAsia"></div>
-      <div class="sponsor" style="padding-top:36px;">
-        <img src="https://lh4.googleusercontent.com/-tpJ-A6YUF5s/UK3IChToUxI/AAAAAAAAAHg/6IqU_GPbYOc/s271/Gold-ThomsonReuters-50px.jpg" alt="Thomson Reuters"></div>
-      <div class="sponsor" style="padding-top:24px;">
-        <img src="https://lh4.googleusercontent.com/--VJtFkjWBdQ/UK3ICkNU5jI/AAAAAAAAAHc/dTWfp0Wt_lY/s199/Gold-ProntoMarketing.png" alt="Pronto Marketing"></div>
-      <div class="clear"></div>
-    </div>
-    <div class="sponsors bronze-sponsors">
-      <div class="sponsor" style="padding-top:18px;">
-        <strong>@sinapam</strong>
+      <div class="sponsors gold-sponsors" style="padding-left: 55px;">
+        <div class="sponsor" style="margin-right:120px;">
+          <img src="https://lh4.googleusercontent.com/-JxwDovi3DZQ/UK3I5bLZEeI/AAAAAAAAAH4/rEpMPlS9g-0/s123/Gold-LaunchPad-120px.jpg" alt="LaunchPad">
+        </div>
+        <div class="sponsor" style="padding-top: 26px;margin-right: 75px;">
+          <img src="https://lh6.googleusercontent.com/-DZsEqOAUpgI/UK3IExZJUUI/AAAAAAAAAHw/2jiYfLy0yQY/s162/Gold-BridgeAsia-90px.jpg" alt="BridgeAsia"></div>
+        <div class="sponsor" style="margin-top: 3px;">
+          <img src="https://lh6.googleusercontent.com/-wethGl1gobs/ULLvo8i0HEI/AAAAAAAAAKM/_HNrTmNgs1Y/s220/tr_vrt_tm_2cp_pos.jpg" alt="Thomson Reuters"></div>
+        <div class="clear"></div>
       </div>
-      <div class="sponsor">
-        <img src="https://lh3.googleusercontent.com/-dfI5Q4-2eSc/UK2wonaX3OI/AAAAAAAAAHI/jKK1w6GtjzQ/s114/Bronze-EmetWork-60px.jpg" alt="EmetWorks">
+      <div class="sponsors gold-sponsors" style="padding-left: 55px;">
+        <div class="sponsor" style="padding-top:43px;margin-right:65px;">
+          <img src="https://lh4.googleusercontent.com/--VJtFkjWBdQ/UK3ICkNU5jI/AAAAAAAAAHc/dTWfp0Wt_lY/s199/Gold-ProntoMarketing.png" alt="Pronto Marketing">
+        </div>
+        <div class="sponsor" style="margin-right:154px;">
+          <img src="https://lh5.googleusercontent.com/-a6IspAP7IHE/UK_q9uIHdkI/AAAAAAAAAIg/46NOQGGTZTY/s121/Gold-DST-121px.jpg.jpg">
+        </div>
+        <div class="sponsor">
+          <img src="https://lh5.googleusercontent.com/-8FLnRPd0Pts/ULIxSm8YujI/AAAAAAAAAJc/xWd5CzCKSnc/s128/Gold-Odd-e-120px.jpg">
+        </div>
+        <div class="clear"></div>
       </div>
-      <div class="sponsor">
-        <img src="https://lh6.googleusercontent.com/-455u8QKnMls/UK3Teu0-zSI/AAAAAAAAAIM/tpftELljig4/s128/Bronze-Sprint3r-60px.jpg" alt="Sprint3r">
+      <div class="sponsors bronze-sponsors" style="margin-top: 48px;padding-left:55px;">
+        <div class="sponsor" style="padding-top:18px;">
+          <strong>@sinapam</strong>
+        </div>
+        <div class="sponsor">
+          <img src="https://lh3.googleusercontent.com/-dfI5Q4-2eSc/UK2wonaX3OI/AAAAAAAAAHI/jKK1w6GtjzQ/s114/Bronze-EmetWork-60px.jpg" alt="EmetWorks">
+        </div>
+        <div class="sponsor">
+          <img src="https://lh6.googleusercontent.com/-455u8QKnMls/UK3Teu0-zSI/AAAAAAAAAIM/tpftELljig4/s128/Bronze-Sprint3r-60px.jpg" alt="Sprint3r">
+        </div>
+        <div class="sponsor" style="margin-top: -6px;">
+          <img src="https://lh3.googleusercontent.com/-3EzOZ-WO9b8/ULL768UZUiI/AAAAAAAAAKg/VCOsSIThDJY/s120/scrumcat_create.png" alt="ScrumCat">
+        </div>
+        <div class="clear"></div>
       </div>
-      <div class="clear"></div>
     </div>
     <p class="content th">
       ถ้าต้องการเป็นผู้สนับสนุนการจัดงานครั้งนี้ กรุณาอ่านรายละเอียด<a href="http://goo.gl/ql22f">ที่นี่</a></p>
@@ -340,41 +364,36 @@
       Want to sponsor the conference? Read <a href="http://goo.gl/ql22f">here</a>.</p>
     <p class="content en">
       Organized by The <a href="http://www.agile66.com">Agile66 </a>Community. Contact <a href="mailto:tour@agile66.com">tour@agile66.com</a> for more information</p>
-      <br/>
-      <div class="faq" >
-        <h2 id="faq">FAQ</h2>
-        <div class="faq_content">
+    <div class="faq" >
+      <h2 id="faq">FAQ</h2>
+      <div class="faq_content">
 
-            <dt>Q1: งานเริ่ม กี่โมง ถึงกี่โมง มี ตาราง schedule มั้ย?</dt>
-            <dd>A1: จะมีการแจ้งให้ทราบ ทางอีเมลล์อีกครั้งหนึ่งค่ะ</dd>
+          <dt>Q1: งานเริ่ม กี่โมง ถึงกี่โมง มี ตาราง schedule มั้ย?</dt>
+          <dd>A1: จะมีการแจ้งให้ทราบ ทางอีเมลล์อีกครั้งหนึ่งค่ะ</dd>
 
-            <dt>Q2: session Eng อย่างเดียว?</dt>
-            <dd>A2: มี session ที่เป็นภาษาไทยค่ะ</dd>
+          <dt>Q2: session Eng อย่างเดียว?</dt>
+          <dd>A2: มี session ที่เป็นภาษาไทยค่ะ</dd>
 
-            <dt>Q3: Dress code?</dt>
-            <dd>A3: Casual ค่ะ คือไม่ต้องเป็นทางการมากนักค่ะ</dd>
+          <dt>Q3: Dress code?</dt>
+          <dd>A3: Casual ค่ะ คือไม่ต้องเป็นทางการมากนักค่ะ</dd>
 
-            <dt>Q4: ค่าตั๋วรวมค่าอาหารด้วยหรือไม่ ?</dt>
-            <dd>A4: รวมอาหารให้เรียบร้อยแล้วค่ะ</dd>
+          <dt>Q4: ค่าตั๋วรวมค่าอาหารด้วยหรือไม่ ?</dt>
+          <dd>A4: รวมอาหารให้เรียบร้อยแล้วค่ะ</dd>
 
-            <dt>Q5: walk in ได้ไหม?</dt>
-            <dd>A5: ไม่มีรับ Walk-in นะคะ เพราะว่าสถานที่จำกัด</dd>
+          <dt>Q5: walk in ได้ไหม?</dt>
+          <dd>A5: ไม่มีรับ Walk-in นะคะ เพราะว่าสถานที่จำกัด</dd>
 
-            <dt>Q6: ตกลงจะมีทีมงานสรุปเป็นไทยให้ใช่ป่าวครับ?</dt>
-            <dd>A6: ไม่มีค่ะ เชื่อว่าผู้เข้าร่วมงานหลายๆท่าน คงกลับไปเขียน Blog ที่จะเป็นประโยชน์ให้ได้อ่านกันค่ะ</dd>
+          <dt>Q6: ตกลงจะมีทีมงานสรุปเป็นไทยให้ใช่ป่าวครับ?</dt>
+          <dd>A6: ไม่มีค่ะ เชื่อว่าผู้เข้าร่วมงานหลายๆท่าน คงกลับไปเขียน Blog ที่จะเป็นประโยชน์ให้ได้อ่านกันค่ะ</dd>
 
-            <dt>Q7: วิธีเดินทางไปงาน?</dt>
-            <dd>A7: ดูจาก Facebook page ของ Launchpad นะคะ <a href=" http://www.facebook.com/launchpadhq/info" target="_blank"> http://www.facebook.com/launchpadhq/info</a></dd>
+          <dt>Q7: วิธีเดินทางไปงาน?</dt>
+          <dd>A7: ดูจาก Facebook page ของ Launchpad นะคะ <a href=" http://www.facebook.com/launchpadhq/info" target="_blank"> http://www.facebook.com/launchpadhq/info</a></dd>
 
-            <dt>Q8: มีที่จอดรถไหม?</dt>
-            <dd>A8: แนะนำว่าไม่ควรนำรถมา เพราะที่จอดรถมีน้อยค่ะ ที่จอดรถในตึก 30 บาท / ชั่วโมง ไม่มี stamp ให้ค่ะ</dd>
+          <dt>Q8: มีที่จอดรถไหม?</dt>
+          <dd>A8: แนะนำว่าไม่ควรนำรถมา เพราะที่จอดรถมีน้อยค่ะ ที่จอดรถในตึก 30 บาท / ชั่วโมง ไม่มี stamp ให้ค่ะ</dd>
 
-        </div>
       </div>
-
-
-
-
+    </div>
 
     <style type="text/css">
       .social-buttons .twitter {
@@ -394,8 +413,9 @@
         padding: 12px;
         background-color: #EEE;
       }
-      .speaker-container {
+      .speaker-container, .sponsors-container {
         margin: 0;
+        width: 934px;
       }
       .speaker-container .speaker {
         list-style: none;
