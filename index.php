@@ -130,7 +130,7 @@
           </div>
           <div class="clear"></div>
         </div>
-        <div class="speaker">
+        <div class="speaker" data-ref="2">
           <img src="https://lh3.googleusercontent.com/-HPSqjWSzYsI/UKBnfjVAFhI/AAAAAAAAAAk/zVhVrpRbTvQ/s128/mak.jpg" alt="" />
           <div class="speaker-info">
             <h3>Steven Mak</h3>
@@ -140,7 +140,7 @@
           <div class="clear"></div>
         </div>
         <div style="width:875px;"></div>
-        <div class="speaker">
+        <div class="speaker" data-ref="3">
           <img src="https://lh4.googleusercontent.com/-F5upq4KwMgU/UKBnek2NXFI/AAAAAAAAAAc/UpAoPqD9NwA/s128/chen.jpg" alt="" />
           <div class="speaker-info">
             <h3>Micheal Chen</h3>
@@ -149,7 +149,7 @@
           </div>
           <div class="clear"></div>
         </div>
-        <div class="speaker">
+        <div class="speaker" data-ref="4">
           <img src="https://lh4.googleusercontent.com/-r6xbOTOn0Do/UKBoBSJuGRI/AAAAAAAAAAw/VTT6DhA4_ls/s128/scherrey.jpg" alt="" />
           <div class="speaker-info">
             <h3>Benjamin Scherrey</h3>
@@ -160,7 +160,7 @@
           </div>
           <div class="clear"></div>
         </div>
-        <div class="speaker">
+        <div class="speaker" data-ref="5">
           <img src="https://lh6.googleusercontent.com/-bWK-rdk2ui0/UKBsS52muBI/AAAAAAAAABU/_WmWyqixcso/s128/suradet.jpg" alt="" />
           <div class="speaker-info">
             <h3>Suradet Jitprapaikulsarn</h3>
@@ -169,7 +169,7 @@
           </div>
           <div class="clear"></div>
         </div>
-        <div class="speaker">
+        <div class="speaker" data-ref="6">
           <img src="https://lh5.googleusercontent.com/-e6AZlRpoqrc/UKBqO5I9poI/AAAAAAAAABM/ge3mwcfTIYY/s128/arthit.jpg" alt="" />
           <div class="speaker-info">
             <h3>Arthit Hongchintakul</h3>
@@ -180,7 +180,7 @@
             <div class="clear"></div>
           </div>
         </div>
-        <div class="speaker">
+        <div class="speaker" data-ref="7">
           <img src="https://lh4.googleusercontent.com/-ZR-Aeynk7EY/UKLr8OKBX7I/AAAAAAAAADE/nomS7XyN4pw/s89/gun.jpg" alt="" />
           <div class="speaker-info">
             <h3>Arunthep Sangvareethip</h3>
@@ -210,7 +210,7 @@
             <div class="clear"></div>
           </div>
         </div>
-        <div class="speaker">
+        <div class="speaker" data-ref="9">
           <img src="https://lh5.googleusercontent.com/-DjNCPdSPMws/UKO3CkkDzeI/AAAAAAAAAEg/ht4fMctMKo8/s89/twin.jpg" alt="" />
           <div class="speaker-info">
             <h3>Twin Panichsombat</h3>
@@ -240,7 +240,7 @@
             <div class="clear"></div>
           </div>
         </div>
-        <div class="speaker">
+        <div class="speaker" data-ref="8">
           <img src="https://lh4.googleusercontent.com/-I48OxZ_Cx9I/UKsscmf2UdI/AAAAAAAAAGI/HwokwnbNS1c/s89/non.jpg" alt="" />
           <div class="speaker-info">
             <h3>Varokas Panusuwan</h3>
@@ -283,6 +283,7 @@
       </div>
     </div>
     <div class="clear"></div>
+
     <p class="content th">การบรรยายส่วนใหญ่เป็นภาษาไทย มีบางส่วนเป็นภาษาอังกฤษโดยจะระบุไว้ในรายละเอียดของหัวข้อ</p>
     <p class="content en">Most sessions will be conducted in Thai except a few sessions by speakers from oversea.</p>
     <h2 id="registration">Registration</h2>
@@ -415,7 +416,12 @@
         -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
       }
-      .speaker-container .speaker img {
+      .speaker-container .speaker:hover {
+        cursor: pointer;
+        background-color: #6CF;
+      }
+      .speaker-container .speaker img,
+      .speaker-container .speaker-full-info-wrapper .speaker-full-info img {
         border: 1px solid #CCC;
         width: 89px;
         float: left;
@@ -433,6 +439,31 @@
       }
       .speaker-container .speaker .speaker-info p strong {
         display: block;
+      }
+      .speaker-full-info-wrapper {
+        position: absolute;
+        margin: 10% auto;
+        float: none;
+        border: 10px solid #FFD6C2;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -khtml-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        z-index: 2000;
+        text-align: left;
+        left: 10%;
+        right: 10%;
+        background-color: #FFFEFF;
+      }
+      .speaker-full-info-wrapper .inside {
+        padding: 10px;
+        overflow: visible;
+        z-index: 2000;
+        height: 300px;
+        border: 1px solid #CCC;
+      }
+      .speaker-container .speaker-full-info-wrapper .speaker-full-info {
+        float: left;
       }
       .reg-options {
         margin-bottom: 24px;
@@ -515,52 +546,80 @@
         clear: both;
       }
     </style>
+    <script id="speaker-full-info-tmpl" type="text/template">
+      <div class="speaker-full-info-wrapper">
+        <div class="inside">
+          <div class="speaker-full-info">
+            <img src="" >
+            <div class="speaker-full-info-detail">
+              <h3 class="speaker-name"></h3>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.05/jquery.masonry.min.js"></script>
+    <script type="text/javascript" src="http://agilebkk.ap01.aws.af.cm/miso.ds.deps.min.0.4.0.js"></script>
     <script type="text/javascript">
-      var $container = $('.speaker-container');
-      $container.imagesLoaded(function(){
-        $container.masonry({
-          itemSelector : '.speaker'
+      (function() {
+        var $container = $('.speaker-container');
+        $container.imagesLoaded(function(){
+          $container.masonry({
+            itemSelector : '.speaker'
+          });
+          $container.append($('#speaker-full-info-tmpl').html());
+          fetchSpeakersInfo();
         });
-      });
-      var lang = getURLParameter('lang');
-      if(lang !== 'th') lang = 'en';
-      var langCls = '.'+lang;
-      switchLang(langCls);
-      $('.swith-link').click(function(e) {
-        e.preventDefault();
-        var langCls = '.' + $(this).attr('data-lang');
+        var lang = getURLParameter('lang');
+        if(lang !== 'th') lang = 'en';
+        var langCls = '.'+lang;
         switchLang(langCls);
-      });
-      function switchLang(langCls) {
-        var content = $('.root .content');
-        content.not(langCls).hide(0);
-        content.filter(langCls).show(0);
-      }
-      function getURLParameter(name) {
-        return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);
-      }
-    </script>
-    <script type="text/javascript" src="miso.ds.deps.min.0.4.0.js"></script>
-    <script type="text/javascript">
-      (function() {//var fullProfileTmpl = _.template($('#fullProfileTmpl').html());
-        var sessionDataset = new Miso.Dataset({
-          importer: Miso.Dataset.Importers.GoogleSpreadsheet,
-          parser: Miso.Dataset.Parsers.GoogleSpreadsheet,
-          key: "0AscWlVyoI5IidFpkekNJV2xFZ0U3YXFYd0VJSFJyaVE",
-          worksheet : '1'
+        $('.swith-link').click(function(e) {
+          e.preventDefault();
+          var langCls = '.' + $(this).attr('data-lang');
+          switchLang(langCls);
         });
-        sessionDataset.fetch({
-          success: function() {
-            this.each(function(row) {
-              console.log(row['Speaker Title']);
-            });
-          },
-          error: function() {
-            console.log('Cannot fetch session data.')
-          }
-        });
+        function switchLang(langCls) {
+          var content = $('.root .content');
+          content.not(langCls).hide(0);
+          content.filter(langCls).show(0);
+        }
+        function getURLParameter(name) {
+          return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);
+        }
+        function fetchSpeakersInfo() {
+          var sessionDataset = new Miso.Dataset({
+            importer: Miso.Dataset.Importers.GoogleSpreadsheet,
+            parser: Miso.Dataset.Parsers.GoogleSpreadsheet,
+            key: "0AscWlVyoI5IidFpkekNJV2xFZ0U3YXFYd0VJSFJyaVE",
+            worksheet : '1'
+          });
+          sessionDataset.fetch({
+            success: function() {
+              var speakerFullInfo = $container.find('.speaker-full-info-wrapper');
+              var speakers = $container.find('.speaker')
+                .click(function() {
+                  var $this = $(this);
+                  if($this.data('fullInfo')) {
+                    var imgSrc = $this.find('img').attr('src')
+                    speakerFullInfo.find('.speaker-full-info img').attr('src', imgSrc);
+                    var info = $this.data('fullInfo');
+                    console.log(info);
+                  }
+                });
+              this.each(function(row) {
+                if(!row['ref']) return;
+                var ref = row['ref'];
+                speakers.filter('[data-ref='+ref+']').data('fullInfo', row);
+              });
+            },
+            error: function() {
+              console.log('Cannot fetch session data.')
+            }
+          });
+        }
       }).call(this);
     </script>
     <?php
