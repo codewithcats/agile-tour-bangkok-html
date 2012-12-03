@@ -340,7 +340,16 @@
         </div>
         <div class="clear"></div>
       </div>
-      <div class="sponsors bronze-sponsors" style="margin-top: 48px;padding-left:55px;">
+      <div class="sponsors silver-sponsors" style="padding-left:180px;">
+        <div class="sponsor" style="margin-right:114px;">
+          <img src="https://lh6.googleusercontent.com/-0bOy0fLnzSg/ULwTas8r0UI/AAAAAAAAAK0/vLZnWGZPnjI/s100/Logo-ABAC.jpg" alt="ABAC">
+        </div>
+        <div class="sponsor" style="padding-top:24px;">
+          <img src="https://lh5.googleusercontent.com/-kDg5uYTMg5Y/ULwUf635G9I/AAAAAAAAAK8/3N09fnrSF9Y/s220/mustbemom-logo.jpg">
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="sponsors bronze-sponsors" style="margin-top: 48px;padding-left:128px;">
         <div class="sponsor" style="padding-top:18px;">
           <strong>@sinapam</strong>
         </div>
@@ -576,14 +585,17 @@
         <div class="clear"></div>
       </div>
     <?php
-      $paid_count = 0;
+      $approved_count = 0;
       foreach ($attendees as $a) {
         $attendee = $a->attendee;
+        //var_dump($attendee);
         $status = 'pending';
-        $paid = floatval($attendee->amount_paid);
-        if($paid >= 1000.00) {
+        $amountPaid = floatval($attendee->amount_paid);
+        $isPaid = $amountPaid >= 1000.00;
+        $isApproved = $amountPaid == 0.01;
+        if($isApproved || $isPaid) {
           $status = 'approved';
-          $paid_count++; 
+          $approved_count++; 
         }
         $name = $attendee->first_name .' '.$attendee->last_name;
         $tag = '';
@@ -606,11 +618,11 @@
     </div>
     <?php
       }
-      $waiting_count = $attendees_count - $paid_count;
+      $waiting_count = $attendees_count - $approved_count;
     ?>
   </div>
   <script type="text/javascript">
-      $('#payment-status-approved').html('Confirmed Payment (<?php echo $paid_count; ?>)');
+      $('#payment-status-approved').html('Confirmed Payment (<?php echo $approved_count; ?>)');
       $('#payment-status-pending').html('Waiting for Payment (<?php echo $waiting_count; ?>)');
   </script>
   </div>
