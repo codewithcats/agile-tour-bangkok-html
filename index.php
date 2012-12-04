@@ -319,24 +319,24 @@
         <div class="clear"></div>
       </div>
       <div class="sponsors gold-sponsors" style="padding-left: 55px;">
-        <div class="sponsor" style="margin-right:120px;">
+        <div class="sponsor" style="margin-right:30px;">
           <img src="https://lh4.googleusercontent.com/-JxwDovi3DZQ/UK3I5bLZEeI/AAAAAAAAAH4/rEpMPlS9g-0/s123/Gold-LaunchPad-120px.jpg" alt="LaunchPad">
         </div>
-        <div class="sponsor" style="padding-top: 26px;margin-right: 75px;">
+        <div class="sponsor" style="padding-top: 26px;margin-right: 48px;">
           <img src="https://lh6.googleusercontent.com/-DZsEqOAUpgI/UK3IExZJUUI/AAAAAAAAAHw/2jiYfLy0yQY/s162/Gold-BridgeAsia-90px.jpg" alt="BridgeAsia"></div>
+        <div class="sponsor">
+          <img src="https://lh5.googleusercontent.com/-8FLnRPd0Pts/ULIxSm8YujI/AAAAAAAAAJc/xWd5CzCKSnc/s128/Gold-Odd-e-120px.jpg">
+        </div>
         <div class="sponsor" style="margin-top: 3px;">
           <img src="https://lh6.googleusercontent.com/-wethGl1gobs/ULLvo8i0HEI/AAAAAAAAAKM/_HNrTmNgs1Y/s220/tr_vrt_tm_2cp_pos.jpg" alt="Thomson Reuters"></div>
         <div class="clear"></div>
       </div>
       <div class="sponsors gold-sponsors" style="padding-left: 55px;">
-        <div class="sponsor" style="padding-top:43px;">
+        <div class="sponsor" style="padding-top:43px;margin-left:24px;margin-right:78px;">
           <img src="https://lh4.googleusercontent.com/--VJtFkjWBdQ/UK3ICkNU5jI/AAAAAAAAAHc/dTWfp0Wt_lY/s199/Gold-ProntoMarketing.png" alt="Pronto Marketing">
         </div>
-        <div class="sponsor">
+        <div class="sponsor" style="margin-right:78px;">
           <img src="https://lh5.googleusercontent.com/-a6IspAP7IHE/UK_q9uIHdkI/AAAAAAAAAIg/46NOQGGTZTY/s121/Gold-DST-121px.jpg.jpg">
-        </div>
-        <div class="sponsor">
-          <img src="https://lh5.googleusercontent.com/-8FLnRPd0Pts/ULIxSm8YujI/AAAAAAAAAJc/xWd5CzCKSnc/s128/Gold-Odd-e-120px.jpg">
         </div>
         <div class="sponsor" style="padding-top:48px;">
           <img src="https://lh6.googleusercontent.com/-nO8q2MWIWIk/UL1eBvQaETI/AAAAAAAAALQ/5j9BcNTle88/s200/iconcept.jpg">
