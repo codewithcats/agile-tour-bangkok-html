@@ -308,39 +308,66 @@
       <p>and email a photo of paper transfer slip or electronic slip to <strong>tour@agile66.com</strong> within <strong>3 days</strong> to secure your ticket
       </p>
     </div>
-    <h2 id="sponsors">Sponsors</h2>
-    <div class="sponsors gold-sponsors">
-      <div class="sponsor">
-        <img src="https://lh4.googleusercontent.com/-JxwDovi3DZQ/UK3I5bLZEeI/AAAAAAAAAH4/rEpMPlS9g-0/s123/Gold-LaunchPad-120px.jpg" alt="LaunchPad">
+    <div class="sponsors-container">
+      <h2 id="sponsors">Sponsors</h2>
+      <div class="sponsors platinum-sponsors">
+        <div class="sponsor" style="padding-top:140px;padding-left:60px;">
+          <img style="width:400px;" src="https://lh5.googleusercontent.com/-LgEAQ_d14OE/ULLbdd9tZuI/AAAAAAAAAJw/PxZwxDXUffk/s642/Platinum-TW-100px.jpg" alt="ToughtWorks">
+        </div>
+        <div class="sponsor">
+          <img src="https://lh4.googleusercontent.com/-guUj7IqpLYw/ULLbdbhcq5I/AAAAAAAAAJ0/eaxBo8cZQLY/s294/Platinum-ProteusFamily-220px.png" alt="Proteus Family">
+        </div>
+        <div class="clear"></div>
       </div>
-      <div class="sponsor" style="padding-top: 18px;">
-        <img src="https://lh6.googleusercontent.com/-DZsEqOAUpgI/UK3IExZJUUI/AAAAAAAAAHw/2jiYfLy0yQY/s162/Gold-BridgeAsia-90px.jpg" alt="BridgeAsia"></div>
-      <div class="sponsor" style="padding-top:36px;">
-        <img src="https://lh4.googleusercontent.com/-tpJ-A6YUF5s/UK3IChToUxI/AAAAAAAAAHg/6IqU_GPbYOc/s271/Gold-ThomsonReuters-50px.jpg" alt="Thomson Reuters"></div>
-      <div class="sponsor" style="padding-top:24px;">
-        <img src="https://lh4.googleusercontent.com/--VJtFkjWBdQ/UK3ICkNU5jI/AAAAAAAAAHc/dTWfp0Wt_lY/s199/Gold-ProntoMarketing.png" alt="Pronto Marketing"></div>
-      <div class="clear"></div>
-    </div>
-    <div class="sponsors gold-sponsors">
-      <div class="sponsor">
-        <img src="https://lh5.googleusercontent.com/-a6IspAP7IHE/UK_q9uIHdkI/AAAAAAAAAIg/46NOQGGTZTY/s121/Gold-DST-121px.jpg.jpg">
+      <div class="sponsors gold-sponsors" style="padding-left: 55px;">
+        <div class="sponsor" style="margin-right:30px;">
+          <img src="https://lh4.googleusercontent.com/-JxwDovi3DZQ/UK3I5bLZEeI/AAAAAAAAAH4/rEpMPlS9g-0/s123/Gold-LaunchPad-120px.jpg" alt="LaunchPad">
+        </div>
+        <div class="sponsor" style="padding-top: 26px;margin-right: 48px;">
+          <img src="https://lh6.googleusercontent.com/-DZsEqOAUpgI/UK3IExZJUUI/AAAAAAAAAHw/2jiYfLy0yQY/s162/Gold-BridgeAsia-90px.jpg" alt="BridgeAsia"></div>
+        <div class="sponsor">
+          <img src="https://lh5.googleusercontent.com/-8FLnRPd0Pts/ULIxSm8YujI/AAAAAAAAAJc/xWd5CzCKSnc/s128/Gold-Odd-e-120px.jpg">
+        </div>
+        <div class="sponsor" style="margin-top: 3px;">
+          <img src="https://lh6.googleusercontent.com/-wethGl1gobs/ULLvo8i0HEI/AAAAAAAAAKM/_HNrTmNgs1Y/s220/tr_vrt_tm_2cp_pos.jpg" alt="Thomson Reuters"></div>
+        <div class="clear"></div>
       </div>
-      <div class="clear"></div>
-    </div>
-    <div class="sponsors bronze-sponsors">
-      <div class="sponsor" style="padding-top:18px;">
-        <strong>@sinapam</strong>
+      <div class="sponsors gold-sponsors" style="padding-left: 55px;">
+        <div class="sponsor" style="padding-top:43px;margin-left:24px;margin-right:78px;">
+          <img src="https://lh4.googleusercontent.com/--VJtFkjWBdQ/UK3ICkNU5jI/AAAAAAAAAHc/dTWfp0Wt_lY/s199/Gold-ProntoMarketing.png" alt="Pronto Marketing">
+        </div>
+        <div class="sponsor" style="margin-right:78px;">
+          <img src="https://lh5.googleusercontent.com/-a6IspAP7IHE/UK_q9uIHdkI/AAAAAAAAAIg/46NOQGGTZTY/s121/Gold-DST-121px.jpg.jpg">
+        </div>
+        <div class="sponsor" style="padding-top:48px;">
+          <img src="https://lh6.googleusercontent.com/-nO8q2MWIWIk/UL1eBvQaETI/AAAAAAAAALQ/5j9BcNTle88/s200/iconcept.jpg">
+        </div>
+        <div class="clear"></div>
       </div>
-      <div class="sponsor">
-        <img src="https://lh3.googleusercontent.com/-dfI5Q4-2eSc/UK2wonaX3OI/AAAAAAAAAHI/jKK1w6GtjzQ/s114/Bronze-EmetWork-60px.jpg" alt="EmetWorks">
+      <div class="sponsors silver-sponsors" style="padding-left:180px;margin-top:24px;">
+        <div class="sponsor" style="margin-right:114px;">
+          <img src="https://lh6.googleusercontent.com/-0bOy0fLnzSg/ULwTas8r0UI/AAAAAAAAAK0/vLZnWGZPnjI/s100/Logo-ABAC.jpg" alt="ABAC">
+        </div>
+        <div class="sponsor" style="padding-top:24px;">
+          <img src="https://lh5.googleusercontent.com/-kDg5uYTMg5Y/ULwUf635G9I/AAAAAAAAAK8/3N09fnrSF9Y/s220/mustbemom-logo.jpg">
+        </div>
+        <div class="clear"></div>
       </div>
-      <div class="sponsor">
-        <img src="https://lh6.googleusercontent.com/-455u8QKnMls/UK3Teu0-zSI/AAAAAAAAAIM/tpftELljig4/s128/Bronze-Sprint3r-60px.jpg" alt="Sprint3r">
+      <div class="sponsors bronze-sponsors" style="margin-top: 36px;padding-left:128px;">
+        <div class="sponsor" style="padding-top:18px;">
+          <strong>@sinapam</strong>
+        </div>
+        <div class="sponsor">
+          <img src="https://lh3.googleusercontent.com/-dfI5Q4-2eSc/UK2wonaX3OI/AAAAAAAAAHI/jKK1w6GtjzQ/s114/Bronze-EmetWork-60px.jpg" alt="EmetWorks">
+        </div>
+        <div class="sponsor">
+          <img src="https://lh6.googleusercontent.com/-455u8QKnMls/UK3Teu0-zSI/AAAAAAAAAIM/tpftELljig4/s128/Bronze-Sprint3r-60px.jpg" alt="Sprint3r">
+        </div>
+        <div class="sponsor" style="margin-top: -6px;">
+          <img src="https://lh3.googleusercontent.com/-3EzOZ-WO9b8/ULL768UZUiI/AAAAAAAAAKg/VCOsSIThDJY/s120/scrumcat_create.png" alt="ScrumCat">
+        </div>
+        <div class="clear"></div>
       </div>
-      <div class="sponsor" style="padding-top:18px;">
-        <strong>ScrumCat</strong>
-      </div>
-      <div class="clear"></div>
     </div>
     <p class="content th">
       ถ้าต้องการเป็นผู้สนับสนุนการจัดงานครั้งนี้ กรุณาอ่านรายละเอียด<a href="http://goo.gl/ql22f">ที่นี่</a></p>
@@ -399,7 +426,7 @@
         padding: 12px;
         background-color: #EEE;
       }
-      .speaker-container {
+      .speaker-container, .sponsors-container {
         margin: 0;
         width: 934px;
       }
@@ -494,7 +521,7 @@
         margin: 6px 12px;
       }
       .bronze-sponsors .sponsor {
-        font-size: 1.5em;
+        font-size: 1.7em;
       }
       .attendees .attendee, .attendees .attendees-info {
         padding: 6px 12px;
@@ -641,14 +668,17 @@
         <div class="clear"></div>
       </div>
     <?php
-      $paid_count = 0;
+      $approved_count = 0;
       foreach ($attendees as $a) {
         $attendee = $a->attendee;
+        //var_dump($attendee);
         $status = 'pending';
-        $paid = floatval($attendee->amount_paid);
-        if($paid >= 1000.00) {
+        $amountPaid = floatval($attendee->amount_paid);
+        $isPaid = $amountPaid >= 1000.00;
+        $isApproved = $amountPaid == 0.01;
+        if($isApproved || $isPaid) {
           $status = 'approved';
-          $paid_count++; 
+          $approved_count++; 
         }
         $name = $attendee->first_name .' '.$attendee->last_name;
         $tag = '';
@@ -671,11 +701,11 @@
     </div>
     <?php
       }
-      $waiting_count = $attendees_count - $paid_count;
+      $waiting_count = $attendees_count - $approved_count;
     ?>
   </div>
   <script type="text/javascript">
-      $('#payment-status-approved').html('Confirmed Payment (<?php echo $paid_count; ?>)');
+      $('#payment-status-approved').html('Confirmed Payment (<?php echo $approved_count; ?>)');
       $('#payment-status-pending').html('Waiting for Payment (<?php echo $waiting_count; ?>)');
   </script>
   </div>
