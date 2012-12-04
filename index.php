@@ -329,18 +329,21 @@
         <div class="clear"></div>
       </div>
       <div class="sponsors gold-sponsors" style="padding-left: 55px;">
-        <div class="sponsor" style="padding-top:43px;margin-right:65px;">
+        <div class="sponsor" style="padding-top:43px;">
           <img src="https://lh4.googleusercontent.com/--VJtFkjWBdQ/UK3ICkNU5jI/AAAAAAAAAHc/dTWfp0Wt_lY/s199/Gold-ProntoMarketing.png" alt="Pronto Marketing">
         </div>
-        <div class="sponsor" style="margin-right:154px;">
+        <div class="sponsor">
           <img src="https://lh5.googleusercontent.com/-a6IspAP7IHE/UK_q9uIHdkI/AAAAAAAAAIg/46NOQGGTZTY/s121/Gold-DST-121px.jpg.jpg">
         </div>
         <div class="sponsor">
           <img src="https://lh5.googleusercontent.com/-8FLnRPd0Pts/ULIxSm8YujI/AAAAAAAAAJc/xWd5CzCKSnc/s128/Gold-Odd-e-120px.jpg">
         </div>
+        <div class="sponsor" style="padding-top:48px;">
+          <img src="https://lh6.googleusercontent.com/-nO8q2MWIWIk/UL1eBvQaETI/AAAAAAAAALQ/5j9BcNTle88/s200/iconcept.jpg">
+        </div>
         <div class="clear"></div>
       </div>
-      <div class="sponsors silver-sponsors" style="padding-left:180px;">
+      <div class="sponsors silver-sponsors" style="padding-left:180px;margin-top:24px;">
         <div class="sponsor" style="margin-right:114px;">
           <img src="https://lh6.googleusercontent.com/-0bOy0fLnzSg/ULwTas8r0UI/AAAAAAAAAK0/vLZnWGZPnjI/s100/Logo-ABAC.jpg" alt="ABAC">
         </div>
@@ -349,7 +352,7 @@
         </div>
         <div class="clear"></div>
       </div>
-      <div class="sponsors bronze-sponsors" style="margin-top: 48px;padding-left:128px;">
+      <div class="sponsors bronze-sponsors" style="margin-top: 36px;padding-left:128px;">
         <div class="sponsor" style="padding-top:18px;">
           <strong>@sinapam</strong>
         </div>
