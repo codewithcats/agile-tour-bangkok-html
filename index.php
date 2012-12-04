@@ -264,7 +264,7 @@
           <img src="https://lh4.googleusercontent.com/-ZNUr3EMyUD0/UKLr7evYj3I/AAAAAAAAAC4/Wf8dDewPx8A/s128/amp.jpg" alt="" />
           <div class="speaker-info">
             <h3>Tanawat Tassana</h3>
-            <p class="description">Agile Evangelist at Wealth Management System Limited</p>
+            <p class="description">Agile Evangelist at Proteus Technologies Co. Ltd.</p>
             <p class="session">
             </p>
             <div class="clear"></div>
