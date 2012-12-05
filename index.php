@@ -59,10 +59,13 @@
           padding: 12px;
           background-color: #EEE;
         }
-        .speaker-container, .sponsors-container {
+        .session-container,
+        .speaker-container,
+        .sponsors-container {
           margin: 0;
           width: 934px;
         }
+        .session-container .session,
         .speaker-container .speaker {
           list-style: none;
           padding: 6px;
@@ -76,6 +79,16 @@
           -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
+        .session-container .session {
+          padding: 12px;
+          display: none;
+        }
+        .session-container .session.full {
+          width: 903px;
+        }
+        .session-container .session.half {
+          width: 435px;
+        }
         .speaker-container .speaker:hover {
           cursor: pointer;
           background-color: #6CF;
@@ -86,13 +99,45 @@
           width: 89px;
           float: left;
         }
+        .session-container .session img {
+          border: none;
+          float: none;
+          margin-bottom: 12px;
+        }
+        .session-container .session .session-info {
+
+        }
         .speaker-container .speaker .speaker-info {
           margin-left: 12px;
           float: left;
           width: 168px;
         }
+        .session-container .session .session-info h3,
+        .session-container .session .session-info h4,
         .speaker-container .speaker .speaker-info h3 {
           margin: 0;
+        }
+        .session-container .session .session-info h4 small {
+          font-weight: normal;
+        }
+        .session-container .session .session-info .speaker-bio {
+          display: none;
+        }
+        .session-container .session .session-info .session-tags {
+          font-size: 0.8em;
+          margin-top: 3px;
+        }
+        .session-container .session .session-info .session-tags .session-lang {
+          margin-left: 12px;
+        }
+        .session-container .session .session-info .session-tags .session-tagline {
+          color: #F50;
+          margin-left: 12px;
+        }
+        .session-container .session .session-info .session-time {
+          background-color: #98C0D5;
+          padding: 2px 5px;
+          border-radius: 5px;
         }
         .speaker-container .speaker .speaker-info p {
           margin: 0;
@@ -222,7 +267,7 @@
         <div id="toc" >
           <ul>
               <li><a href="#theme" >Theme</a></li>
-              <li><a href="#speakers" >Speakers</a></li>
+              <li><a href="#sessions" >Sessions</a></li>
               <li><a href="#registration" >Registration</a> | <a href="#payment" >Payment</a></li>
 
               <li><a href="#sponsors" >Sponsors</a></li>
@@ -281,200 +326,24 @@
         a phrase from the Agile Manifesto which, in other word, means the theme is about promoting agile to wider audience.
       </p>
     </div>
-    <h2>Sessions&nbsp;<img id="session-loader" src="https://lh5.googleusercontent.com/-rZqpLLP9B6g/UL6U-BzWLiI/AAAAAAAAALw/xT7lHn9gRFs/s72/loader.gif" alt="Loading"></h2>
+    <h2 id="sessions">Sessions&nbsp;<img id="session-loader" src="https://lh5.googleusercontent.com/-rZqpLLP9B6g/UL6U-BzWLiI/AAAAAAAAALw/xT7lHn9gRFs/s72/loader.gif" alt="Loading"></h2>
     <div class="session-container">
-      <div class="session" data-ref="1">
-      </div>
-    </div>
-    <h2 id="speakers">Speakers</h2>
-    <div class="speaker-container">
-      <div>
-        <div class="speaker" data-ref="1">
-          <img src="https://lh4.googleusercontent.com/-RcJLPqC7W30/UKBonyPgQ5I/AAAAAAAAABE/GQ_wRyFeWzY/s128/amr-2.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Amr Elssamadisy (Keynote)</h3>
-            <p class="description">Executive Agile Coach at Samadisy, Inc.</p>
-            <p class="session"><strong>Session:</strong>What it takes to succeed with Agile</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <div class="speaker" data-ref="2">
-          <img src="https://lh3.googleusercontent.com/-HPSqjWSzYsI/UKBnfjVAFhI/AAAAAAAAAAk/zVhVrpRbTvQ/s128/mak.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Steven Mak</h3>
-            <p class="description">Agile Coach at Odd-e</p>
-            <p class="session"><strong>Session:</strong>Scrum Fundamentals and Effective Adoption</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <div style="width:875px;"></div>
-        <div class="speaker" data-ref="3">
-          <img src="https://lh4.googleusercontent.com/-F5upq4KwMgU/UKBnek2NXFI/AAAAAAAAAAc/UpAoPqD9NwA/s128/chen.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Micheal Chen</h3>
-            <p class="description">Director at IConcepts Co., Ltd.</p>
-            <p class="session"><strong>Session:</strong>CMM with Agile</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <div class="speaker" data-ref="4">
-          <img src="https://lh4.googleusercontent.com/-r6xbOTOn0Do/UKBoBSJuGRI/AAAAAAAAAAw/VTT6DhA4_ls/s128/scherrey.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Benjamin Scherrey</h3>
-            <p class="description">Chief Systems Architect at Proteus Technologies Co. Ltd.</p>
-            <p class="session">
-              <strong>Session:</strong>Agile Architecture
-            </p>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <div class="speaker" data-ref="5">
-          <img src="https://lh6.googleusercontent.com/-bWK-rdk2ui0/UKBsS52muBI/AAAAAAAAABU/_WmWyqixcso/s128/suradet.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Suradet Jitprapaikulsarn</h3>
-            <p class="description">Lecturer at Department of Electrical and Computer Engineering, Naresuan University</p>
-            <p class="session"><strong>Session:</strong>Essential Agile Skills for University Students - อไจล์ในมหาลัย น่าจะสอนอะไรกันบ้าง</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <div class="speaker" data-ref="6">
-          <img src="https://lh5.googleusercontent.com/-e6AZlRpoqrc/UKBqO5I9poI/AAAAAAAAABM/ge3mwcfTIYY/s128/arthit.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Arthit Hongchintakul</h3>
-            <p class="description">Managing Director at Swiftlet</p>
-            <p class="session">
-              <strong>Session:</strong>Agile Cowboy - ทีมเล็ก เริ่มอย่างไร โตอย่างไร
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="speaker" data-ref="7">
-          <img src="https://lh4.googleusercontent.com/-ZR-Aeynk7EY/UKLr8OKBX7I/AAAAAAAAADE/nomS7XyN4pw/s89/gun.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Arunthep Sangvareethip</h3>
-            <p class="description">CEO & Founder at EMET Works</p>
-            <p class="session">
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="speaker">
-          <img src="https://lh3.googleusercontent.com/-_o2Lcr74Ew0/UKsoknMR4aI/AAAAAAAAAF4/VCti3m8axN0/s89/korn.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Kamon Treetampinij</h3>
-            <p class="description">Speaker from Agile66</p>
-            <p class="session">
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="speaker">
-          <img src="https://lh6.googleusercontent.com/-FUMIaDDhrh8/UKLr8jq1QYI/AAAAAAAAADQ/INoEI04yejE/s89/kulawat.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Kulawat Wongsaroj</h3>
-            <p class="description">CEO & Agile Coach at Proteus Agility</p>
-            <p class="session">
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="speaker" data-ref="9">
-          <img src="https://lh5.googleusercontent.com/-DjNCPdSPMws/UKO3CkkDzeI/AAAAAAAAAEg/ht4fMctMKo8/s89/twin.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Twin Panichsombat</h3>
-            <p class="description">Agile Practitioner at Opendream</p>
-            <p class="session">
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="speaker">
-          <img src="https://lh3.googleusercontent.com/-y6QZo3SPP_c/UKLr7W8rCqI/AAAAAAAAAC8/o3kNQ-4H-gc/s89/chockchai.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Chokchai Phatharamalai</h3>
-            <p class="description">Hyper-Productivity Seeker at Proteus Technologies</p>
-            <p class="session">
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="speaker">
-          <img src="https://lh6.googleusercontent.com/-7tVY7qrxIpo/UKLr9bdi61I/AAAAAAAAADU/CTlBFEugD6w/s89/natty.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Nattanicha Phatharamalai</h3>
-            <p class="description">Sr. Software Engineer/Agile Coach at Pronto Marketing</p>
-            <p class="session">
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="speaker" data-ref="8">
-          <img src="https://lh4.googleusercontent.com/-I48OxZ_Cx9I/UKsscmf2UdI/AAAAAAAAAGI/HwokwnbNS1c/s89/non.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Varokas Panusuwan</h3>
-            <p class="description">Software Engineer III at Cobalt Group</p>
-            <p class="session">
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="speaker">
-          <img src="https://lh6.googleusercontent.com/-u0CkrhTprlU/UKLr9_WQpKI/AAAAAAAAADk/4zi6AX7xXUk/s89/prathan.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Prathan Dansakulcharoenkit</h3>
-            <p class="description">Scrum Master, Software Tester and ITIL Coach at Opendream</p>
-            <p class="session">
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="speaker">
-          <img src="https://lh4.googleusercontent.com/-ZNUr3EMyUD0/UKLr7evYj3I/AAAAAAAAAC4/Wf8dDewPx8A/s128/amp.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Tanawat Tassana</h3>
-            <p class="description">Agile Evangelist at Proteus Technologies Co. Ltd.</p>
-            <p class="session">
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-        <div class="speaker">
-          <img src="https://lh4.googleusercontent.com/-tSyAwDZSnt4/UKLr7TPkI3I/AAAAAAAAADA/UW6CyVH7JGQ/s89/bomb.jpg" alt="" />
-          <div class="speaker-info">
-            <h3>Karan Sivarat</h3>
-            <p class="description">Team Leader at Gosoft</p>
-            <p class="session">
-            </p>
-            <div class="clear"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="clear"></div>
-
-    <p class="content th">การบรรยายส่วนใหญ่เป็นภาษาไทย มีบางส่วนเป็นภาษาอังกฤษโดยจะระบุไว้ในรายละเอียดของหัวข้อ</p>
-    <p class="content en">Most sessions will be conducted in Thai except a few sessions by speakers from oversea.</p>
-    <h2 id="registration">Registration</h2>
-    <div class="reg-options content th">
-      <div class="reg-option">บัตรราคาปกติ 2,000 บาท</div>
-      <div class="reg-option active"><strong>Early Bird</strong> ราคา <strong>1,000</strong> บาท (สามารถจองบัตรได้แล้ววันนี้ทาง <a href="http://agiletourbkk2012.eventbrite.com/"><img src="http://ebmedia.eventbrite.com/s3-build/11159-rc11-05-cff5361/django/images/logos/eb_logo_tiny_tm-trans.png" alt="Eventbrite" /></a>)</div>
-    </div>
-    <div class="reg-options content en">
-      <div class="reg-option">Regular Ticket 2,000 THB</div>
-      <div class="reg-option active"><strong>Early Bird</strong> Ticket <strong>1,000</strong> THB (available for a limited time via <a href="http://agiletourbkk2012.eventbrite.com/"><img src="http://ebmedia.eventbrite.com/s3-build/11159-rc11-05-cff5361/django/images/logos/eb_logo_tiny_tm-trans.png" alt="Eventbrite" /></a>)</div>
-    </div>
-    <h2 id="payment">Payment</h2>
-    <div class="payment-desc content th">
-      <p>
-        กรุณาโอนเงินไปที่บัญชี<strong>ธนาคารไทยพาญิชย์</strong> หมายเลขบัญชี <strong>250-211504-4 (นางสาวณัฏฐณิชา ฤทธิ์ธรรมนาถ)</strong></p>
-      <p>แล้วส่ง email แนบรูปถ่ายสลิปการโอนเงินของท่านไปยัง <strong>tour@agile66.com</strong> ภายใน <strong>3 วัน</strong>เพื่อรักษาสิทธิ์ของตัวท่านเอง
-      </p>
-    </div>
-    <div class="payment-desc content en">
-      <p>
-        Please transfer your payment to <strong>SCB</strong> Account <strong>250-211504-4 (Nattanicha Rittammanart)</strong></p>
-      <p>and email a photo of paper transfer slip or electronic slip to <strong>tour@agile66.com</strong> within <strong>3 days</strong> to secure your ticket
-      </p>
+      <div class="session full" data-ref="1"></div>
+      <div class="session full" data-ref="11"></div>
+      <div class="session full" data-ref="12"></div>
+      <div class="session full" data-ref="4"></div>
+      <div class="session full" data-ref="6"></div>
+      <div class="session full" data-ref="3"></div>
+      <div class="session full" data-ref="10"></div>
+      <div class="session full" data-ref="9"></div>
+      <div class="session full" data-ref="15"></div>
+      <div class="session full" data-ref="13"></div>
+      <div class="session full" data-ref="14"></div>
+      <div class="session full" data-ref="2"></div>
+      <div class="session full" data-ref="5"></div>
+      <div class="session full" data-ref="16"></div>
+      <div class="session full" data-ref="17"></div>
+      <div class="clear"></div>
     </div>
     <div class="sponsors-container">
       <h2 id="sponsors">Sponsors</h2>
@@ -538,8 +407,6 @@
       </div>
     </div>
     <p class="content th">
-      ถ้าต้องการเป็นผู้สนับสนุนการจัดงานครั้งนี้ กรุณาอ่านรายละเอียด<a href="http://goo.gl/ql22f">ที่นี่</a></p>
-    <p class="content th">
       ดูแลงานโดยกลุ่ม <a href="http://www.agile66.com">Agile66 </a> สามารถติดต่อเพื่อขอข้อมูลเพิ่มเติมได้ที่ <a href="mailto:tour@agile66.com">tour@agile66.com</a></p>
     <p class="content en">
       Want to sponsor the conference? Read <a href="http://goo.gl/ql22f">here</a>.</p>
@@ -575,18 +442,24 @@
 
       </div>
     </div>
+    <script id="session-info-tmpl" type="text/template">
+      <img src="<%= imageUrl %>">
+      <div class="session-info">
+        <h3><%= SessionTitle %></h3>
+        <h4><small>by</small>&nbsp;<%= SpeakerFullName %>&nbsp;<small><%= SpeakerTitle %></small></h4>
+        <p class="session-tags">
+          <span class="session-time"><%= Time %></span> <span class="session-lang">Language: <%= SessionLanguage %></span> <span class="session-tagline"><%= Tags %></span>
+        </p>
+        <p class="speaker-bio"><%= SpeakerBio %></p>
+        <p class="session-description"><%= SessionDescription %></p>
+      </div>
+    </script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.05/jquery.masonry.min.js"></script>
     <script type="text/javascript" src="http://agilebkk.ap01.aws.af.cm/miso.ds.deps.min.0.4.0.js"></script>
     <script type="text/javascript">
       (function() {
-        var $container = $('.speaker-container');
-        $container.imagesLoaded(function(){
-          $container.masonry({
-            itemSelector : '.speaker'
-          });
-          fetchSpeakersInfo();
-        });
+        fetchSpeakersInfo();
         var lang = getURLParameter('lang');
         if(lang !== 'th') lang = 'en';
         var langCls = '.'+lang;
@@ -604,6 +477,7 @@
         function getURLParameter(name) {
           return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);
         }
+        var sessionInfoTmpl = _.template($('#session-info-tmpl').html());
         function fetchSpeakersInfo() {
           var sessionDataset = new Miso.Dataset({
             importer: Miso.Dataset.Importers.GoogleSpreadsheet,
@@ -613,12 +487,16 @@
           });
           sessionDataset.fetch({
             success: function() {
-              var speakers = $container.find('.session');
+              var sessions = $('.session-container .session');
               this.each(function(row) {
                 if(!row['ref']) return;
                 var ref = row['ref'];
-                speakers.filter('[data-ref='+ref+']').data('fullInfo', row);
+                var info = sessionInfoTmpl(row);
+                sessions.filter('[data-ref='+ref+']')
+                  .html(info)
+                  .data('fullInfo', row);
               });
+              sessions.show();
               $('#session-loader').hide(0);
             },
             error: function() {
