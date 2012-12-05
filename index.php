@@ -42,7 +42,170 @@
         dd{
             margin-bottom: 15px; color: gray; line-height: 2.4em;
         }
-    </style>
+        .social-buttons .twitter {
+          width: 150px;
+        }
+        .lang-bar {
+          padding: 6px;
+          background-color: #EEE;
+          width: 52px;
+        }
+        .container p {
+          font-size: 1.2em;
+        }
+        .theme {
+          font-size: 1.3em;
+          font-weight: bold;
+          padding: 12px;
+          background-color: #EEE;
+        }
+        .speaker-container, .sponsors-container {
+          margin: 0;
+          width: 934px;
+        }
+        .speaker-container .speaker {
+          list-style: none;
+          padding: 6px;
+          float: left;
+          width: 271px;
+          border: 1px solid #CCC;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          margin: 3px;
+          background-color: #FFF;
+          -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .speaker-container .speaker:hover {
+          cursor: pointer;
+          background-color: #6CF;
+        }
+        .speaker-container .speaker img,
+        .speaker-container .speaker-full-info-wrapper .speaker-full-info img {
+          border: 1px solid #CCC;
+          width: 89px;
+          float: left;
+        }
+        .speaker-container .speaker .speaker-info {
+          margin-left: 12px;
+          float: left;
+          width: 168px;
+        }
+        .speaker-container .speaker .speaker-info h3 {
+          margin: 0;
+        }
+        .speaker-container .speaker .speaker-info p {
+          margin: 0;
+        }
+        .speaker-container .speaker .speaker-info p strong {
+          display: block;
+        }
+        .speaker-full-info-wrapper {
+          position: absolute;
+          margin: 10% auto;
+          float: none;
+          border: 10px solid #FFD6C2;
+          border-radius: 3px;
+          -moz-border-radius: 3px;
+          -khtml-border-radius: 3px;
+          -webkit-border-radius: 3px;
+          z-index: 2000;
+          text-align: left;
+          left: 10%;
+          right: 10%;
+          background-color: #FFFEFF;
+        }
+        .speaker-full-info-wrapper .inside {
+          padding: 10px;
+          overflow: visible;
+          z-index: 2000;
+          height: 300px;
+          border: 1px solid #CCC;
+        }
+        .speaker-container .speaker-full-info-wrapper .speaker-full-info {
+          float: left;
+        }
+        .reg-options {
+          margin-bottom: 24px;
+        }
+        .reg-options .reg-option {
+          border-left: 6px solid #CCC;
+          padding-left: 12px;
+          margin-bottom: 6px;
+        }
+        .reg-options .reg-option.active {
+          border-left: 6px solid #F50;
+          font-size: 1.5em;
+        }
+        .payment-desc {
+          padding: 12px;
+          background-color: #EEE;
+          font-size: 1.2em;
+        }
+        .payment-desc p {
+          padding: 0;
+          margin: 0;
+        }
+        .sponsors {
+          margin-bottom: 12px;
+        }
+        .sponsors .sponsor {
+          float: left;
+          margin: 6px 12px;
+        }
+        .bronze-sponsors .sponsor {
+          font-size: 1.7em;
+        }
+        .attendees .attendee, .attendees .attendees-info {
+          padding: 6px 12px;
+        }
+        .attendees .attendee {
+          margin: 12px 0;
+        }
+        .attendees .attendees-info {
+          background-color: #EEE;
+          margin-bottom: 12px;
+        }
+        .attendees .payment-status {
+          float: left;
+        }
+        .attendees .payment-status {
+          font-weight: bold;
+          width: 180px;
+          border-left: 6px solid;
+          padding-left: 6px;
+        }
+        .attendees .payment-status.approved {
+          border-left-color: #6FD36F;
+          color: #6FD36F;
+        }
+        .attendees .payment-status.pending {
+          border-left-color: #666;
+          color: #666;
+        }
+        .attendees .attendee {
+          border-left: 6px solid;
+        }
+        .attendees .attendee.approved {
+          border-left-color: #6FD36F;
+        }
+        .attendees .attendee.pending {
+          border-left-color: #666;
+        }
+        .attendees .attendee .name {
+          font-weight: bold;
+        }
+        .attendees .attendee .answers {
+          margin: 0;
+          color: #666;
+        }
+        .attendees .attendee .answers .answer {
+          color: #000;
+        }
+        .clear {
+          clear: both;
+        }
+      </style>
   </head>
   <body>
     <div class="root">
@@ -117,6 +280,11 @@
       <p class="content en">
         a phrase from the Agile Manifesto which, in other word, means the theme is about promoting agile to wider audience.
       </p>
+    </div>
+    <h2>Sessions&nbsp;<img id="session-loader" src="https://lh5.googleusercontent.com/-rZqpLLP9B6g/UL6U-BzWLiI/AAAAAAAAALw/xT7lHn9gRFs/s72/loader.gif" alt="Loading"></h2>
+    <div class="session-container">
+      <div class="session" data-ref="1">
+      </div>
     </div>
     <h2 id="speakers">Speakers</h2>
     <div class="speaker-container">
@@ -407,185 +575,6 @@
 
       </div>
     </div>
-
-    <style type="text/css">
-      .social-buttons .twitter {
-        width: 150px;
-      }
-      .lang-bar {
-        padding: 6px;
-        background-color: #EEE;
-        width: 52px;
-      }
-      .container p {
-        font-size: 1.2em;
-      }
-      .theme {
-        font-size: 1.3em;
-        font-weight: bold;
-        padding: 12px;
-        background-color: #EEE;
-      }
-      .speaker-container, .sponsors-container {
-        margin: 0;
-        width: 934px;
-      }
-      .speaker-container .speaker {
-        list-style: none;
-        padding: 6px;
-        float: left;
-        width: 271px;
-        border: 1px solid #CCC;
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        margin: 3px;
-        background-color: #FFF;
-        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-      }
-      .speaker-container .speaker:hover {
-        cursor: pointer;
-        background-color: #6CF;
-      }
-      .speaker-container .speaker img,
-      .speaker-container .speaker-full-info-wrapper .speaker-full-info img {
-        border: 1px solid #CCC;
-        width: 89px;
-        float: left;
-      }
-      .speaker-container .speaker .speaker-info {
-        margin-left: 12px;
-        float: left;
-        width: 168px;
-      }
-      .speaker-container .speaker .speaker-info h3 {
-        margin: 0;
-      }
-      .speaker-container .speaker .speaker-info p {
-        margin: 0;
-      }
-      .speaker-container .speaker .speaker-info p strong {
-        display: block;
-      }
-      .speaker-full-info-wrapper {
-        position: absolute;
-        margin: 10% auto;
-        float: none;
-        border: 10px solid #FFD6C2;
-        border-radius: 3px;
-        -moz-border-radius: 3px;
-        -khtml-border-radius: 3px;
-        -webkit-border-radius: 3px;
-        z-index: 2000;
-        text-align: left;
-        left: 10%;
-        right: 10%;
-        background-color: #FFFEFF;
-      }
-      .speaker-full-info-wrapper .inside {
-        padding: 10px;
-        overflow: visible;
-        z-index: 2000;
-        height: 300px;
-        border: 1px solid #CCC;
-      }
-      .speaker-container .speaker-full-info-wrapper .speaker-full-info {
-        float: left;
-      }
-      .reg-options {
-        margin-bottom: 24px;
-      }
-      .reg-options .reg-option {
-        border-left: 6px solid #CCC;
-        padding-left: 12px;
-        margin-bottom: 6px;
-      }
-      .reg-options .reg-option.active {
-        border-left: 6px solid #F50;
-        font-size: 1.5em;
-      }
-      .payment-desc {
-        padding: 12px;
-        background-color: #EEE;
-        font-size: 1.2em;
-      }
-      .payment-desc p {
-        padding: 0;
-        margin: 0;
-      }
-      .sponsors {
-        margin-bottom: 12px;
-      }
-      .sponsors .sponsor {
-        float: left;
-        margin: 6px 12px;
-      }
-      .bronze-sponsors .sponsor {
-        font-size: 1.7em;
-      }
-      .attendees .attendee, .attendees .attendees-info {
-        padding: 6px 12px;
-      }
-      .attendees .attendee {
-        margin: 12px 0;
-      }
-      .attendees .attendees-info {
-        background-color: #EEE;
-        margin-bottom: 12px;
-      }
-      .attendees .payment-status {
-        float: left;
-      }
-      .attendees .payment-status {
-        font-weight: bold;
-        width: 180px;
-        border-left: 6px solid;
-        padding-left: 6px;
-      }
-      .attendees .payment-status.approved {
-        border-left-color: #6FD36F;
-        color: #6FD36F;
-      }
-      .attendees .payment-status.pending {
-        border-left-color: #666;
-        color: #666;
-      }
-      .attendees .attendee {
-        border-left: 6px solid;
-      }
-      .attendees .attendee.approved {
-        border-left-color: #6FD36F;
-      }
-      .attendees .attendee.pending {
-        border-left-color: #666;
-      }
-      .attendees .attendee .name {
-        font-weight: bold;
-      }
-      .attendees .attendee .answers {
-        margin: 0;
-        color: #666;
-      }
-      .attendees .attendee .answers .answer {
-        color: #000;
-      }
-      .clear {
-        clear: both;
-      }
-    </style>
-    <script id="speaker-full-info-tmpl" type="text/template">
-      <div class="speaker-full-info-wrapper">
-        <div class="inside">
-          <div class="speaker-full-info">
-            <img src="" >
-            <div class="speaker-full-info-detail">
-              <h3 class="speaker-name"></h3>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </div>
-      </div>
-    </script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.05/jquery.masonry.min.js"></script>
     <script type="text/javascript" src="http://agilebkk.ap01.aws.af.cm/miso.ds.deps.min.0.4.0.js"></script>
@@ -596,7 +585,6 @@
           $container.masonry({
             itemSelector : '.speaker'
           });
-          $container.append($('#speaker-full-info-tmpl').html());
           fetchSpeakersInfo();
         });
         var lang = getURLParameter('lang');
@@ -625,22 +613,13 @@
           });
           sessionDataset.fetch({
             success: function() {
-              var speakerFullInfo = $container.find('.speaker-full-info-wrapper');
-              var speakers = $container.find('.speaker')
-                .click(function() {
-                  var $this = $(this);
-                  if($this.data('fullInfo')) {
-                    var imgSrc = $this.find('img').attr('src')
-                    speakerFullInfo.find('.speaker-full-info img').attr('src', imgSrc);
-                    var info = $this.data('fullInfo');
-                    console.log(info);
-                  }
-                });
+              var speakers = $container.find('.session');
               this.each(function(row) {
                 if(!row['ref']) return;
                 var ref = row['ref'];
                 speakers.filter('[data-ref='+ref+']').data('fullInfo', row);
               });
+              $('#session-loader').hide(0);
             },
             error: function() {
               console.log('Cannot fetch session data.')
