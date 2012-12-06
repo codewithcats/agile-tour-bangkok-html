@@ -267,10 +267,7 @@
         <div id="toc" >
           <ul>
               <li><a href="#theme" >Theme</a></li>
-              <li><a href="#sessions" >Sessions</a></li>
-              <li><a href="#registration" >Registration</a> | <a href="#payment" >Payment</a></li>
-
-              <li><a href="#sponsors" >Sponsors</a></li>
+              <li><a href="#sessions" >Sessions</a></li><li><a href="#sponsors" >Sponsors</a></li>
               <li><a href="#faq" >FAQ</a></li>
               <li><a href="#attendees" >Attendees</a></li>
           </ul>
